@@ -1,0 +1,97 @@
+.touch{
+  background-color: #ffffff;
+   .with-print {
+     padding: 0px;
+  }
+  .pt-180{
+    padding-top: 180px;
+  }
+  .custom-card{
+    height: 100px;
+    background: #294dff;
+    padding: 25px;
+    color: #ffff;
+    font-size: 18px;
+  }
+  &:not(:fullscreen){
+    .anticon-fullscreen-exit{
+      display: none;
+    }
+  }
+  &:fullscreen {
+    .anticon-fullscreen {
+      display: none;
+    }
+  }
+  .card-header {
+    padding: 4px 1.40rem;
+    margin-bottom: 0;
+    background-color: #294dff;
+    border-bottom: 0;
+    line-height: 33px;
+  }
+  .card-body {
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    background-color: #294dff;
+    color: #ffff;
+    font-size: 18px;
+  }
+  .custom-card-body {
+    .card-body {
+      padding-top: 10px !important;
+      padding-left: 25px !important;
+      padding-right: 20px !important;
+      padding-bottom: 0px !important;
+    }
+  }
+
+  .custom-header{
+    background: #4a4848;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #ffff;
+  }
+  .card-list {
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    justify-content: space-between;
+    .card {
+      flex: 1;
+      min-width: 180px;
+      max-width: 180px;
+    }
+  }
+
+  .step-3{
+    .custom-card-body-user-detail{
+      .card-body {
+        padding: 3px;
+      }
+    }
+    .custom-card-body-menu-categories{
+      .card {
+         margin-bottom: 1px;
+      }
+      .card-body {
+        padding: 5px;
+        color: black;
+      }
+    }
+    .category-card-body{
+      .card {
+        margin-bottom: 2px;
+      }
+      .card-body{
+        height: 95px;
+        padding: 10px;
+      }
+    }
+    .side-box{
+      border: 1px solid;
+      height: 600px;
+    }
+  }
+}
+

@@ -1,0 +1,65 @@
+{
+  "columns": [
+    {
+      "dataField": "Name",
+      "caption": "Name"
+    },
+    {
+      "dataField": "Category",
+      "caption": "Category"
+    },
+    {
+      "dataField": "ProductNumber",
+      "caption": "ProductNumber"
+    },
+    {
+      "dataField": "Pack",
+      "caption": "Pack"
+    },
+    {
+      "dataField": "Price",
+      "caption": "Price"
+    },
+    {
+      "dataField": "Test",
+      "caption": "test"
+    }
+  ],
+  "rows" : [
+    {
+      "Name":  "Name 1",
+      "Category":  "Category 1",
+      "ProductNumber":  "PN 1",
+      "Pack":  "Pack 1",
+      "Price":  "Price 1"
+    },
+    {
+      "Name":  "Name 2",
+      "Category":  "Category 2",
+      "ProductNumber":  "PN 2",
+      "Pack":  "Pack 2",
+      "Price":  "Price 2"
+    },
+    {
+      "Name":  "Name 3",
+      "Category":  "Category 3",
+      "ProductNumber":  "PN 3",
+      "Pack":  "Pack 3",
+      "Price":  "Price 3"
+    },
+    {
+      "Name":  "Name 4",
+      "Category":  "Category 4",
+      "ProductNumber":  "PN 4",
+      "Pack":  "Pack 4",
+      "Price":  "Price 4"
+    },
+    {
+      "Name":  "Name 5",
+      "Category":  "Category 5",
+      "ProductNumber":  "PN 5",
+      "Pack":  "Pack 5",
+      "Price":  "Price 5"
+    }
+  ]
+}

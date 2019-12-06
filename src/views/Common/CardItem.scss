@@ -1,0 +1,9 @@
+.card-item {
+  padding: 10px 15px;
+  border-bottom: solid 1px #eee;
+  cursor: pointer;
+
+  &:hover {
+    background: #e5f2ff;
+  }
+}

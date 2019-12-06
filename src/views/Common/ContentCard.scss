@@ -1,0 +1,40 @@
+.content-card {
+  border: 1px solid #eee;
+
+  .ant-card-head {
+    border-bottom: 1px solid #f5f5f5;
+    font-size: 15px;
+    padding: 0;
+    color: #fff;
+    background: #46be89;
+
+    .ant-card-head-title {
+      padding: 10px 10px;
+    }
+  }
+  .ant-card-body {
+    padding: 0;
+  }
+  .request-item {
+    padding: 10px 0;
+    border-bottom: solid 1px #eee;
+  }
+  .ant-card-loading-content {
+    padding: 10px 25px;
+  }
+  &.header-gray {
+    .ant-card-head {
+      background: #545f6a;
+    }
+  }
+  &.header-blue {
+    .ant-card-head {
+      background: #65a6ea;
+    }
+  }
+  &.header-green {
+    .ant-card-head {
+      background: #46be89;
+    }
+  }
+}

@@ -1,0 +1,127 @@
+$colors: ("20a8d8",#20a8d8),("a4b7c1", #a4b7c1),("4dbd74",#4dbd74),
+  ("f86c6b",#f86c6b),("ffc107", #ffc107),("63c2de",#63c2de),
+  ("ffffff",#ffffff),("f0f3f5", #f0f3f5),("29363d",#29363d),
+  ("f0f3f5",#f0f3f5),("c2cfd6", #c2cfd6),("151b1e",#151b1e),
+  ("000000",#000000);
+
+
+@each $color in $colors {
+  $str1: #{nth($color,1)};
+  $str2: #{nth($color,2)};
+  .color-#{$str1} {
+    color: $str2 !important;
+  }
+  .preview-#{$str1} {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background-color: $str2 !important;
+  }
+  .grid-header-color-#{$str1} {
+    .ant-table > .ant-table-content > .ant-table-body > table > .ant-table-thead > tr > th,
+    .ant-table > .ant-table-content > .ant-table-scroll > .ant-table-header > table > .ant-table-thead > tr > th,
+    .ant-table > .ant-table-content > .ant-table-scroll > .ant-table-header > table > .ant-table-thead > tr > th .anticon:not(.on) {
+      color: $str2 !important;
+    }
+    .grid-main .dx-datagrid .dx-datagrid-headers .dx-datagrid-table .dx-header-row td,
+    .grid-main .dx-datagrid .dx-datagrid-headers .dx-datagrid-table .dx-header-row td .dx-sort-indicator,
+    .grid-main .dx-datagrid .dx-datagrid-headers .dx-datagrid-table .dx-header-row td .dx-column-indicators .dx-sort
+    {
+      color: $str2 !important;
+    }
+  }
+  .grid-header-bg-color-#{$str1} {
+    .ant-table >.ant-table-content>.ant-table-body>table>.ant-table-thead>tr>th,
+    .ant-table > .ant-table-content > .ant-table-scroll > .ant-table-header > table > .ant-table-thead > tr > th {
+      background-color: $str2 !important;
+    }
+    .grid-main .dx-datagrid .dx-datagrid-headers .dx-datagrid-table .dx-header-row {
+      background-color: $str2 !important;
+    }
+  }
+  .grid-body-color-#{$str1} {
+    .ant-table-body .ant-table-tbody td {
+      color: $str2 !important;
+    }
+  }
+  .grid-body-bg-color-#{$str1} {
+   .ant-table-body .ant-table-tbody {
+     background-color: $str2 !important;
+   }
+  }
+  .grid-row-hover-bg-color-#{$str1} {
+    .ant-table-body .ant-table-tbody {
+      background-color: $str2 !important;
+    }
+  }
+  .grid-even-row-color-#{$str1} {
+    .ant-table .ant-table-content .ant-table-body .ant-table-tbody .ant-table-row:nth-child(even) {
+      background-color: $str2 !important;
+    }
+    .expanded-table .ant-table-content .ant-table-body .ant-table-tbody .ant-table-row{
+      background-color: $str2 !important;
+    }
+  }
+  .button-bg-color-#{$str1} {
+      .btn, .ant-btn {
+        background-color: $str2 !important;
+        border-color: $str2 !important;
+      }
+  }
+  .button-text-color-#{$str1} {
+    .btn, .ant-btn {
+      color: $str2 !important;
+    }
+  }
+  .menu-icon-color-#{$str1} {
+    .print-button .anticon {
+      color: $str2 !important;
+    }
+  }
+  .menu-text-color-#{$str1} {
+    .print-button .ant-menu-item {
+      color: $str2 !important;
+    }
+  }
+  .menu-bg-color-#{$str1} {
+    .main .with-print .print-button .ant-menu-horizontal {
+      background: $str2 !important;
+    }
+  }
+  .menu-border-color-#{$str1} {
+    .main .with-print .print-button .ant-menu-horizontal {
+      border-top: solid 1px $str2;
+      border-bottom: solid 1px $str2;
+    }
+  }
+  .section-text-color-#{$str1} {
+    .main .card .card-header {
+      color: $str2;
+    }
+  }
+  .section-bg-color-#{$str1} {
+    .main .card .card-header {
+      background-color: $str2;
+    }
+  }
+  .row-hover-bg-color-#{$str1} {
+    .grid-main .dx-datagrid .dx-datagrid-content .dx-datagrid-table .dx-data-row:hover {
+      background-color: $str2 !important;
+    }
+  }
+  .row-hover-color-#{$str1} {
+    .grid-main .dx-datagrid .dx-datagrid-content .dx-datagrid-table .dx-data-row:hover td,
+    .grid-main .dx-datagrid .dx-datagrid-content .dx-datagrid-table .dx-data-row:hover td .text-primary {
+      color: $str2 !important;
+    }
+  }
+
+}
+
+.color-white {
+  color: #fff !important;
+}
+
+.delete-btn-menu {
+  border-top: 1px solid #20a8d8 !important;
+}

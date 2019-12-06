@@ -1,0 +1,3376 @@
+
+{
+  "Total Records": 259,
+  "Message": [
+    {
+      "AuditID": "V4K35E5TOFDCFWG1",
+      "Message": {
+        "Time": "22/04/2019 11:43:00:147EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Closed database connection",
+        "EventDesc": "Successfully Closed database connection",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403765643738346235:49e9e8f823ac1a05d25019c85e7093d9a673540665d9f2d826fcd8665692b56b9f31b8dba972e02285714abc0d24882f1e2624179af1df1a5b2ffdb04ff07cfe"
+    },
+    {
+      "AuditID": "5K2T0H0O3PZRZRKT",
+      "Message": {
+        "Time": "22/04/2019 11:44:00:139EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Reterived transactional failed records",
+        "EventDesc": "Number of transaction failed record is 2",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403631323865633737:8ecab91114baa2a041859e076668b49a619089ca84c5a935f5797f9d3d65a8a4ee31d4f6ff334d64e968046a6fbbe22e3aa20e65bf2346c2873ab04f15c2b9c8"
+    },
+    {
+      "AuditID": "5K2T0H0O3PZRZRKT",
+      "Message": {
+        "Time": "22/04/2019 11:44:00:166EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Closed database connection",
+        "EventDesc": "Successfully Closed database connection",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b424064346563653263:79c64aa3e5dde8b5c2d3820053859528fbcc48590d9f0e63e720809153ed48f2e9ddc65a5638d6e761dcd21659ec08e17d2e6d4b2159ce079d647560f81a623d"
+    },
+    {
+      "AuditID": "5K2T0H0O3PZRZRKT",
+      "Message": {
+        "Time": "22/04/2019 11:44:00:386EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Set of failed transaction users",
+        "EventDesc": "Set of failed transaction users are [11, 12]",
+        "Operation": "RETRY FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403336353532386337:3544ff5a612765a460630d12f549442371ffe5058a5b1297d25e4e12750dd3759a90ecb299931e270b0e52b85fc8b45a04179e3f7c4fc63e1ac90b0209e97eb9"
+    },
+    {
+      "AuditID": "5K2T0H0O3PZRZRKT",
+      "Message": {
+        "Time": "22/04/2019 11:44:00:403EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Iterate through failed transaction records",
+        "EventDesc": "Iterate through failed transaction records and automatically retry deletion process",
+        "Operation": "RETRY FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403638663237643437:b4a4861b426f4b73071656e8709ff26a300cc0d978ed6e7d36b2d97411a9b9d97e6ade85a238f6dfdbd481fa9a8b16972d17d3b7741ae67e08d965def1bacbe1"
+    },
+    {
+      "AuditID": "5K2T0H0O3PZRZRKT",
+      "Message": {
+        "Time": "22/04/2019 11:44:00:420EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Check and Verify automatic retry count",
+        "EventDesc": "Check and Verify that an automatic retry had not reached the maximum limit for the record with unique ID 11",
+        "Operation": "RETRY FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403432366432653734:e31e96b480c36f0282bc094adbebd0f47fb1771546309f592d0d629688013ed5805dbfe1aa4f3529486b0b02d8379a26fa7e728c06f2dd04c5b99928fd69a5e7"
+    },
+    {
+      "AuditID": "5K2T0H0O3PZRZRKT",
+      "Message": {
+        "Time": "22/04/2019 11:44:00:438EDT",
+        "App": "LDAP",
+        "accountID": "user.12",
+        "EventMessage": "Initiate automatic retry",
+        "EventDesc": "Initiate automatic retry",
+        "Operation": "RETRY FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403164653964326266:d6dfc2e9640b7a3a538a6a59fe6fa7d8ae66e9c0c404df44d977db37f53c3a78c5abb3ffab675fa9dd3710eaf817ab1c3977292bec24bd6e64f347497a3861c5"
+    },
+    {
+      "AuditID": "5K2T0H0O3PZRZRKT",
+      "Message": {
+        "Time": "22/04/2019 11:44:00:456EDT",
+        "App": "LDAP",
+        "accountID": "user.12",
+        "EventMessage": "Initiate Delete operation",
+        "EventDesc": "Initiate SCIM service for Delete operation",
+        "Operation": "RETRY FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403632353963373834:2b8e72356af7b1032f88afa733db52c158b1859a9afc24e4f5efd431e5263af17b21ed4414e67fa530f48e849f89e1da222f94e3c86038607237902a99342fff"
+    },
+    {
+      "AuditID": "5K2T0H0O3PZRZRKT",
+      "Message": {
+        "Time": "22/04/2019 11:44:00:469EDT",
+        "App": "LDAP",
+        "accountID": "user.12",
+        "EventMessage": "Initiate and hit SCIM service",
+        "EventDesc": "Initiate HTTP/HTTPS URL connection to SCIM server and hit the service 'http://192.168.56.102:9090/scim/v2/286BSAHE/Users/user.12'",
+        "Operation": "TRIGGER SCIM SERVICE",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b424033643565356361:f4e694f3f1436f0c44684b3fc19389e352bf6c462e276d309bb57567e349c27a2d31933e0a9a2f001fa8f61c5406396b5c30d39d9a8e42c7dac3a3cca94ed82e"
+    },
+    {
+      "AuditID": "5K2T0H0O3PZRZRKT",
+      "Message": {
+        "Time": "22/04/2019 11:44:00:609EDT",
+        "App": "LDAP",
+        "accountID": "user.12",
+        "EventMessage": "Capture the service response code",
+        "EventDesc": "Service response code is 500",
+        "Operation": "TRIGGER SCIM SERVICE",
+        "Status": "failed"
+      },
+      "HashMessage": "1000:5b424034323962616461:14687b9d3d77e6bc13ba05f91fe0793aef493934caded920ae4fcade10c84dc10a200b0e1082f8bfcb0bdd54177a6819f0bbf7b687f21f6069b3a24b327f770c"
+    },
+    {
+      "AuditID": "5K2T0H0O3PZRZRKT",
+      "Message": {
+        "Time": "22/04/2019 11:44:00:627EDT",
+        "App": "LDAP",
+        "accountID": "user.12",
+        "EventMessage": "Capture the response message",
+        "EventDesc": "Service response message is JSONObject[\"hostname1\"] not found.",
+        "Operation": "TRIGGER SCIM SERVICE",
+        "Status": "failed"
+      },
+      "HashMessage": "1000:5b42403264636236646561:49669168e4933e2d6ef1249c7ddc88698dc6acdafd59239d85fdb6ad7c1bc5cba32aaaa1701e7fd351c52e35ed87f35fd997c650ef247bdf037e05eb409421ed"
+    },
+    {
+      "AuditID": "5K2T0H0O3PZRZRKT",
+      "Message": {
+        "Time": "22/04/2019 11:44:00:638EDT",
+        "App": "LDAP",
+        "accountID": "user.12",
+        "EventMessage": "Delete operation failed",
+        "EventDesc": "User 'user.12' delete failed because of JSONObject[\"hostname1\"] not found.",
+        "Operation": "TRIGGER SCIM SERVICE",
+        "Status": "failed"
+      },
+      "HashMessage": "1000:5b42403464353936356465:23c8c3d1ae9fdad8627a0a6248e8c19e86c687006094806ae447206418f694286e921fb3b9009168b201236a7b1c98491d0785cffe4ad3aaf1091e03fd7a7899"
+    },
+    {
+      "AuditID": "5K2T0H0O3PZRZRKT",
+      "Message": {
+        "Time": "22/04/2019 11:44:00:649EDT",
+        "App": "LDAP",
+        "accountID": "user.12",
+        "EventMessage": "Update the failed transaction record",
+        "EventDesc": "Update record for user 'user.12' in the table with the reason of failure",
+        "Operation": "RETRY FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403562656166326130:8a1acdb85bc6c57e2c1d08812669cdadd897c003926d340c78a7e6317fd39df5481b1a79fad2792ce2e198b73b95dd342b9c9ade214802738071c80746d69295"
+    },
+    {
+      "AuditID": "5K2T0H0O3PZRZRKT",
+      "Message": {
+        "Time": "22/04/2019 11:44:00:696EDT",
+        "App": "LDAP",
+        "accountID": "user.12",
+        "EventMessage": "Check and Verify automatic retry count",
+        "EventDesc": "Check and Verify that an automatic retry had not reached the maximum limit for the record with unique ID 12",
+        "Operation": "RETRY FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403238653438656433:1b0aa3b42a1c5b632de71b1429d6d2ca8e4b6e64dd6e253c4c9957cfe366f4700c851617c5cf1084abf3708732d60942a3bd4c82a8a61761e69ba4493c8f1afb"
+    },
+    {
+      "AuditID": "5K2T0H0O3PZRZRKT",
+      "Message": {
+        "Time": "22/04/2019 11:44:00:708EDT",
+        "App": "LDAP",
+        "accountID": "user.13",
+        "EventMessage": "Initiate automatic retry",
+        "EventDesc": "Initiate automatic retry",
+        "Operation": "RETRY FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403662313261393165:1dfffd8db29a568a33c180bf1ab0e9c1dde7242fc32027041ad72aa735cb5e4797168543044280bd9145267ef48c2495bfbb5de909016b89bba297c10475ccc6"
+    },
+    {
+      "AuditID": "5K2T0H0O3PZRZRKT",
+      "Message": {
+        "Time": "22/04/2019 11:44:00:720EDT",
+        "App": "LDAP",
+        "accountID": "user.13",
+        "EventMessage": "Initiate Delete operation",
+        "EventDesc": "Initiate SCIM service for Delete operation",
+        "Operation": "RETRY FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403733386163653936:af14e6b9355ffc9842cbb61f850b953edfb1b53986c748a5abfc646376c20417d0a82f43430b00d8e8457f447f022f9aca6a3ae1ce780f4c051ec97b28f5ae02"
+    },
+    {
+      "AuditID": "5K2T0H0O3PZRZRKT",
+      "Message": {
+        "Time": "22/04/2019 11:44:00:731EDT",
+        "App": "LDAP",
+        "accountID": "user.13",
+        "EventMessage": "Initiate and hit SCIM service",
+        "EventDesc": "Initiate HTTP/HTTPS URL connection to SCIM server and hit the service 'http://192.168.56.102:9090/scim/v2/286BSAHE/Users/user.13'",
+        "Operation": "TRIGGER SCIM SERVICE",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403337663266383263:28a8eeb79b9c241ff2a9aa77b5fdab480888e1e66121b52d94c87f71ac397465cde63276eb07aa791985c0fa7a1b22ea67454737ebf268f304c8196b385d97e5"
+    },
+    {
+      "AuditID": "5K2T0H0O3PZRZRKT",
+      "Message": {
+        "Time": "22/04/2019 11:44:00:851EDT",
+        "App": "LDAP",
+        "accountID": "user.13",
+        "EventMessage": "Capture the service response code",
+        "EventDesc": "Service response code is 500",
+        "Operation": "TRIGGER SCIM SERVICE",
+        "Status": "failed"
+      },
+      "HashMessage": "1000:5b42403466636439373834:41465575ea240cdf903988ca9ace446b53fc609e736bb8252743f460f692fead9653d3f3183fc86d71bd9c2adcdc7f6a751b73e3abebc308aa63ee76cfd6ce43"
+    },
+    {
+      "AuditID": "5K2T0H0O3PZRZRKT",
+      "Message": {
+        "Time": "22/04/2019 11:44:00:865EDT",
+        "App": "LDAP",
+        "accountID": "user.13",
+        "EventMessage": "Capture the response message",
+        "EventDesc": "Service response message is JSONObject[\"hostname1\"] not found.",
+        "Operation": "TRIGGER SCIM SERVICE",
+        "Status": "failed"
+      },
+      "HashMessage": "1000:5b42403131653431643463:076d21e7dfc839e4b7b99b0792e0e4998a6545ebff501ec8e813105224445dbafae606c61ab7d3d78922ac17eddb440c9dbc095421554e5e5a828915f8f9985b"
+    },
+    {
+      "AuditID": "5K2T0H0O3PZRZRKT",
+      "Message": {
+        "Time": "22/04/2019 11:44:00:878EDT",
+        "App": "LDAP",
+        "accountID": "user.13",
+        "EventMessage": "Delete operation failed",
+        "EventDesc": "User 'user.13' delete failed because of JSONObject[\"hostname1\"] not found.",
+        "Operation": "TRIGGER SCIM SERVICE",
+        "Status": "failed"
+      },
+      "HashMessage": "1000:5b42403638616236646638:90c199ae359dd29435803ee089d9cd0cd55fab0be9bce0e00652236414fdf7356b838a77b1fde4b440c928225eb14e18772fc3743c00d81ee2d2029cb931b0df"
+    },
+    {
+      "AuditID": "5K2T0H0O3PZRZRKT",
+      "Message": {
+        "Time": "22/04/2019 11:44:00:891EDT",
+        "App": "LDAP",
+        "accountID": "user.13",
+        "EventMessage": "Update the failed transaction record",
+        "EventDesc": "Update record for user 'user.13' in the table with the reason of failure",
+        "Operation": "RETRY FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403535363966653130:47e05eb1c4cfa235e8f953ddb7d4cf278f647a50188dca455cfa43b9148d3b7dc59453825c4c8f4d7a430671747b2fca43e0fae6aa3b1cfc4fa5b97ec702abb7"
+    },
+    {
+      "AuditID": "JUADK0G6IYBLDE4G",
+      "Message": {
+        "Time": "22/04/2019 11:45:00:221EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Prepare SQL select statement",
+        "EventDesc": "Successfully prepared SQL select statement to get all records for which auto retry is not reached the maximum attempt",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403633373331383432:49de6242061c4712280a585ac66ee6f4cd800850b0ff16413af09978a8d35aead99e9e9002a750ada6f45b70254a1ac13c7424611b4af4855b54dd72fe5e328a"
+    },
+    {
+      "AuditID": "JUADK0G6IYBLDE4G",
+      "Message": {
+        "Time": "22/04/2019 11:45:00:247EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Reterived transactional failed records",
+        "EventDesc": "Number of transaction failed record is 2",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403134626661623732:fc247dc1c38aecc3b5416f370f19bd8460367abc31f7490d59bded444b1943d453df508e2f3316b401d4b7ecbc5c445b810cb2e44c1c827ff82b8cc6711d641e"
+    },
+    {
+      "AuditID": "JUADK0G6IYBLDE4G",
+      "Message": {
+        "Time": "22/04/2019 11:45:00:453EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Closed database connection",
+        "EventDesc": "Successfully Closed database connection",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403666623461336165:ef63053d511ca9db176c8c84bc4dbdcc5dc30d27db84a55a682899578f743b62c8606363400195e98fa0b348661dc50572b099e970d1a77b2a18344755094740"
+    },
+    {
+      "AuditID": "JUADK0G6IYBLDE4G",
+      "Message": {
+        "Time": "22/04/2019 11:45:00:481EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Set of failed transaction users",
+        "EventDesc": "Set of failed transaction users are [11, 12]",
+        "Operation": "RETRY FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403631633239313732:ef2d08b3b9528a7e74d7fbee17f995b7ff09b26951fabd2d66c90340b418c44e3dc0f86e74fb17a31ef1664e3ff6041668d99f79b56706ffac9b4b9b9820e511"
+    },
+    {
+      "AuditID": "JUADK0G6IYBLDE4G",
+      "Message": {
+        "Time": "22/04/2019 11:45:00:496EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Iterate through failed transaction records",
+        "EventDesc": "Iterate through failed transaction records and automatically retry deletion process",
+        "Operation": "RETRY FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403632343632373935:e5f86bb5a78b0f1910979d2f1ca907d9028cfdfa8c47a4dd1f547a1caa68766cdcfde1760c36b76bc0983483c0f6b59e1c1273673bc9cbf72cf43b2535a54329"
+    },
+    {
+      "AuditID": "JUADK0G6IYBLDE4G",
+      "Message": {
+        "Time": "22/04/2019 11:45:00:512EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Check and Verify automatic retry count",
+        "EventDesc": "Check and Verify that an automatic retry had not reached the maximum limit for the record with unique ID 11",
+        "Operation": "RETRY FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403561383632656231:e37871d9d9d0a7079a79037d4baf56cb35513ef90f6710d0146f94ec8b014a7a702ddf2d0afd153c414dc1d9a74715975b5a41e11c3b8a3b56244d21748023d3"
+    },
+    {
+      "AuditID": "JUADK0G6IYBLDE4G",
+      "Message": {
+        "Time": "22/04/2019 11:45:00:526EDT",
+        "App": "LDAP",
+        "accountID": "user.12",
+        "EventMessage": "Initiate automatic retry",
+        "EventDesc": "Initiate automatic retry",
+        "Operation": "RETRY FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b424062636630316133:954d6aecdf7f2c39324f9f6a1c023b17b58e5951d2a4d1cbc2ebd3043e22798e317ae444afdb68da059b73dae94dd6d0eab531e1ec53ec13680cf17ee729cb1d"
+    },
+    {
+      "AuditID": "JUADK0G6IYBLDE4G",
+      "Message": {
+        "Time": "22/04/2019 11:45:00:548EDT",
+        "App": "LDAP",
+        "accountID": "user.12",
+        "EventMessage": "Initiate Delete operation",
+        "EventDesc": "Initiate SCIM service for Delete operation",
+        "Operation": "RETRY FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403163383861333531:3eb078f46544524111f042d6c0bb812f6b9f103d2e07d456ca1623ced5ab14bbe80febd920a3e22366882dae55af667663f63183e404345a65bcc1c3fe9009f2"
+    },
+    {
+      "AuditID": "JUADK0G6IYBLDE4G",
+      "Message": {
+        "Time": "22/04/2019 11:45:00:563EDT",
+        "App": "LDAP",
+        "accountID": "user.12",
+        "EventMessage": "Initiate and hit SCIM service",
+        "EventDesc": "Initiate HTTP/HTTPS URL connection to SCIM server and hit the service 'http://192.168.56.102:9090/scim/v2/286BSAHE/Users/user.12'",
+        "Operation": "TRIGGER SCIM SERVICE",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b4240346462393737:8aa7423d8b99bdde88b259ea99a8252620b5cf0a941693bf6e128eea1b2db2875bac9e3165f53b206bd7e9e3c0721b822fa8fa1704ecbcb6367e6fb94003bb27"
+    },
+    {
+      "AuditID": "JUADK0G6IYBLDE4G",
+      "Message": {
+        "Time": "22/04/2019 11:45:00:682EDT",
+        "App": "LDAP",
+        "accountID": "user.12",
+        "EventMessage": "Capture the service response code",
+        "EventDesc": "Service response code is 500",
+        "Operation": "TRIGGER SCIM SERVICE",
+        "Status": "failed"
+      },
+      "HashMessage": "1000:5b42403239613331333735:7b80ab970361b1369e1831565f0c6814e0532f528227a9c8dbf284f0781b5318cdecdd85172d37f21765cef2daab12c523a1f7e9a46ad61ce22171256dfce8f9"
+    },
+    {
+      "AuditID": "JUADK0G6IYBLDE4G",
+      "Message": {
+        "Time": "22/04/2019 11:45:00:696EDT",
+        "App": "LDAP",
+        "accountID": "user.12",
+        "EventMessage": "Capture the response message",
+        "EventDesc": "Service response message is JSONObject[\"hostname1\"] not found.",
+        "Operation": "TRIGGER SCIM SERVICE",
+        "Status": "failed"
+      },
+      "HashMessage": "1000:5b42403534343165333463:68b3b330bdc92d991ca44fda04806014cea76afd03d5509ee7b23193835a12bdb1f816b1748daa15062b3d6247da460cd6952ab2efdad195ecb7b7a003738747"
+    },
+    {
+      "AuditID": "JUADK0G6IYBLDE4G",
+      "Message": {
+        "Time": "22/04/2019 11:45:00:708EDT",
+        "App": "LDAP",
+        "accountID": "user.12",
+        "EventMessage": "Delete operation failed",
+        "EventDesc": "User 'user.12' delete failed because of JSONObject[\"hostname1\"] not found.",
+        "Operation": "TRIGGER SCIM SERVICE",
+        "Status": "failed"
+      },
+      "HashMessage": "1000:5b42403530623531613862:447ea23178dedcd4d74eca53158ff34d0020a092fee27c2f0426b2b992458c2b762a6f652cce1ad02b90f5df5cc2d859fd1a314cab2afae3e5ab92f175d271b6"
+    },
+    {
+      "AuditID": "JUADK0G6IYBLDE4G",
+      "Message": {
+        "Time": "22/04/2019 11:45:00:719EDT",
+        "App": "LDAP",
+        "accountID": "user.12",
+        "EventMessage": "Update the failed transaction record",
+        "EventDesc": "Update record for user 'user.12' in the table with the reason of failure",
+        "Operation": "RETRY FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403631366436363062:de900ace6959364cec87017dc2c1d14667f5cb54d6fde92f25c334d28ae513311405ac30774bb50a55c18486215a80d0ace776b31ebfc3cb1fc3e67cb9123404"
+    },
+    {
+      "AuditID": "JUADK0G6IYBLDE4G",
+      "Message": {
+        "Time": "22/04/2019 11:45:00:740EDT",
+        "App": "LDAP",
+        "accountID": "user.12",
+        "EventMessage": "Check and Verify automatic retry count",
+        "EventDesc": "Check and Verify that an automatic retry had not reached the maximum limit for the record with unique ID 12",
+        "Operation": "RETRY FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403665386235613234:00521bc27ea34ab12aad0149bbe5a2290b3a67fc1d935febeb3d0058678fdb69e4332931e7f31f949212e80d04ce863c3c8c77d28f39e699d14dd4dc1b7d3745"
+    },
+    {
+      "AuditID": "JUADK0G6IYBLDE4G",
+      "Message": {
+        "Time": "22/04/2019 11:45:00:751EDT",
+        "App": "LDAP",
+        "accountID": "user.13",
+        "EventMessage": "Initiate automatic retry",
+        "EventDesc": "Initiate automatic retry",
+        "Operation": "RETRY FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403533383662336137:4a603ff70821e8a74f700604cb0af46d2d5f64d988f8ac33510da59d7593658131d918a98e2b7cc5d01f3ba45a40086d3852a9d1c58a283853dc28418daa24b4"
+    },
+    {
+      "AuditID": "JUADK0G6IYBLDE4G",
+      "Message": {
+        "Time": "22/04/2019 11:45:00:762EDT",
+        "App": "LDAP",
+        "accountID": "user.13",
+        "EventMessage": "Initiate Delete operation",
+        "EventDesc": "Initiate SCIM service for Delete operation",
+        "Operation": "RETRY FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403231613565306564:8ab92fd7c539e68a536f3dfc29cb9f4397d114c80286b191ce8ccf65094207d010a659cf798a7ca47e05faaf880d61cbcd3c011687ca75db004e0cebb779f79f"
+    },
+    {
+      "AuditID": "JUADK0G6IYBLDE4G",
+      "Message": {
+        "Time": "22/04/2019 11:45:00:775EDT",
+        "App": "LDAP",
+        "accountID": "user.13",
+        "EventMessage": "Initiate and hit SCIM service",
+        "EventDesc": "Initiate HTTP/HTTPS URL connection to SCIM server and hit the service 'http://192.168.56.102:9090/scim/v2/286BSAHE/Users/user.13'",
+        "Operation": "TRIGGER SCIM SERVICE",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403636303633656465:78a9099700c571458c9ac479c409db791b7d87910c7818401a52d2247ee3acb162e4a6805cc90670be26add611e0e81fb8aebf35460611596447045b703315b7"
+    },
+    {
+      "AuditID": "JUADK0G6IYBLDE4G",
+      "Message": {
+        "Time": "22/04/2019 11:45:00:889EDT",
+        "App": "LDAP",
+        "accountID": "user.13",
+        "EventMessage": "Capture the service response code",
+        "EventDesc": "Service response code is 500",
+        "Operation": "TRIGGER SCIM SERVICE",
+        "Status": "failed"
+      },
+      "HashMessage": "1000:5b42403233626164343431:23645092f175eaaa3ae65f1df61e7f5597560a45e2346b2df336cb1a99c82957bbe7f1d9a36e1ee266350f9b1bab99f3b90bfa79495e50daadb3e28fa7feb3f5"
+    },
+    {
+      "AuditID": "JUADK0G6IYBLDE4G",
+      "Message": {
+        "Time": "22/04/2019 11:45:00:906EDT",
+        "App": "LDAP",
+        "accountID": "user.13",
+        "EventMessage": "Capture the response message",
+        "EventDesc": "Service response message is JSONObject[\"hostname1\"] not found.",
+        "Operation": "TRIGGER SCIM SERVICE",
+        "Status": "failed"
+      },
+      "HashMessage": "1000:5b42403239346333626330:bd0e340bb03b952452846d61d01d828b43e020af1c00e90eddf20f50bc63ab197458c2007d8dc13c618a6faf35b712c3d6801ddd43f4425d83268629a76b14ef"
+    },
+    {
+      "AuditID": "JUADK0G6IYBLDE4G",
+      "Message": {
+        "Time": "22/04/2019 11:45:00:920EDT",
+        "App": "LDAP",
+        "accountID": "user.13",
+        "EventMessage": "Delete operation failed",
+        "EventDesc": "User 'user.13' delete failed because of JSONObject[\"hostname1\"] not found.",
+        "Operation": "TRIGGER SCIM SERVICE",
+        "Status": "failed"
+      },
+      "HashMessage": "1000:5b42403436373136646361:3f3719b4f5560a1eb0ed8d4f5d0f34c0adf2d53cad1e9da4503cbf829d7d249f49a97dcbc85430bca223d145bc665c1f81e4b9099ea2cd2edff4b1839553caa5"
+    },
+    {
+      "AuditID": "JUADK0G6IYBLDE4G",
+      "Message": {
+        "Time": "22/04/2019 11:45:00:932EDT",
+        "App": "LDAP",
+        "accountID": "user.13",
+        "EventMessage": "Update the failed transaction record",
+        "EventDesc": "Update record for user 'user.13' in the table with the reason of failure",
+        "Operation": "RETRY FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403238333631393864:04d3c045cbae5e344adb1914d5969b978257854439e4862f045e34c1758e708d325036668e4d2938bc72cad13cccb1b9a94dd2531d1207e5acb8eb8b7d878941"
+    },
+    {
+      "AuditID": "N0QOMABT1O11VAXF",
+      "Message": {
+        "Time": "22/04/2019 11:46:00:194EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Prepare SQL select statement",
+        "EventDesc": "Successfully prepared SQL select statement to get all records for which auto retry is not reached the maximum attempt",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403766663565313834:fff8e3a1946a69db05c68a6f5d03c5b89c5dee16fe5e3c5e820d4a988ea9319dfc8a4f934f1de9c415e6a3d15edf2236e9033e67825b9d1222a4d06766e953c6"
+    },
+    {
+      "AuditID": "N0QOMABT1O11VAXF",
+      "Message": {
+        "Time": "22/04/2019 11:46:00:220EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Reterived transactional failed records",
+        "EventDesc": "Number of transaction failed record is 2",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403565353331353763:dcc0caff5f54ac2808025704f762063e538a9c134df97f19510bc40b1aa500a85c390ce371962f3bb35b865192b4eeb5e4fbfcc61f3f9333ec4425a71f4ea9f0"
+    },
+    {
+      "AuditID": "N0QOMABT1O11VAXF",
+      "Message": {
+        "Time": "22/04/2019 11:46:00:417EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Closed database connection",
+        "EventDesc": "Successfully Closed database connection",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403438653063303332:df95048c6a68756d23317db4ddfac0f5278a07b8bb916dfe5cf134ed2aff76719ab37b6bfc2aefa28243100af8d6f68dc08e1a6d5b2c0929cade5885e26ae532"
+    },
+    {
+      "AuditID": "N0QOMABT1O11VAXF",
+      "Message": {
+        "Time": "22/04/2019 11:46:00:440EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Set of failed transaction users",
+        "EventDesc": "Set of failed transaction users are [11, 12]",
+        "Operation": "RETRY FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403130656236666232:230af500d2a1afec1f9bd75b7bed224be85f69b999dda1f55da89fa44908c2170f50d8bf3d834a5c6519798e9c5ad7d97be918482026a90dcaf9ebac86377d4b"
+    },
+    {
+      "AuditID": "N0QOMABT1O11VAXF",
+      "Message": {
+        "Time": "22/04/2019 11:46:00:455EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Iterate through failed transaction records",
+        "EventDesc": "Iterate through failed transaction records and automatically retry deletion process",
+        "Operation": "RETRY FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403539623234383766:3db1f741b432e63569851bda5f8823adfd11822739af3f84f7cdeb96463c78fc45642c27f0124e123c9e5bcc7b1268b0ae7a3a2090564ac09b39e7a0f49ae168"
+    },
+    {
+      "AuditID": "N0QOMABT1O11VAXF",
+      "Message": {
+        "Time": "22/04/2019 11:46:00:470EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Check and Verify automatic retry count",
+        "EventDesc": "Check and Verify that an automatic retry had not reached the maximum limit for the record with unique ID 11",
+        "Operation": "RETRY FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403661656332393739:64ffa80fb3e626d365cc04f0717ad8dd8c7bd1fd53f975d305d76c1c08f2296a2830cda58e2c67dd4f3e5dbbe06171ffa84d32713649941da7bc60aae867747d"
+    },
+    {
+      "AuditID": "N0QOMABT1O11VAXF",
+      "Message": {
+        "Time": "22/04/2019 11:46:00:485EDT",
+        "App": "LDAP",
+        "accountID": "user.12",
+        "EventMessage": "Initiate automatic retry",
+        "EventDesc": "Initiate automatic retry",
+        "Operation": "RETRY FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403539366333653534:6b0257aa28cd10856bd312882cd2511fa8e46f304bfa7c8e2a67001eeb721b4acb431ff7987d347f42f502cea96068fdad7144fa34eb49ca542e566833295988"
+    },
+    {
+      "AuditID": "N0QOMABT1O11VAXF",
+      "Message": {
+        "Time": "22/04/2019 11:46:00:498EDT",
+        "App": "LDAP",
+        "accountID": "user.12",
+        "EventMessage": "Initiate Delete operation",
+        "EventDesc": "Initiate SCIM service for Delete operation",
+        "Operation": "RETRY FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403739666132383664:262fcd36f292ba7109eeccd6f3b58d7eaadba05864a6d76e77e9dc0be56351c1b5ab1338c94d2dba9f6c42e994a53cf282d02f44eb135865faf19476143b131d"
+    },
+    {
+      "AuditID": "N0QOMABT1O11VAXF",
+      "Message": {
+        "Time": "22/04/2019 11:46:00:524EDT",
+        "App": "LDAP",
+        "accountID": "user.12",
+        "EventMessage": "Initiate and hit SCIM service",
+        "EventDesc": "Initiate HTTP/HTTPS URL connection to SCIM server and hit the service 'http://192.168.56.102:9090/scim/v2/286BSAHE/Users/user.12'",
+        "Operation": "TRIGGER SCIM SERVICE",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403630343566313330:783ceb12c99b2adc86dd462c18be15c24a1a2b43f2abd9d8130ec1e62d420a04f944bfe16878d37983cc3be3e58626373a5d861c1f37ca8dba42765340508031"
+    },
+    {
+      "AuditID": "N0QOMABT1O11VAXF",
+      "Message": {
+        "Time": "22/04/2019 11:46:00:631EDT",
+        "App": "LDAP",
+        "accountID": "user.12",
+        "EventMessage": "Capture the service response code",
+        "EventDesc": "Service response code is 500",
+        "Operation": "TRIGGER SCIM SERVICE",
+        "Status": "failed"
+      },
+      "HashMessage": "1000:5b424039343635623938:0e810d80034e695d839885d99c3359574fee7ad566326f0f44d4290f91103e08d10e2080442d0f1135d60e98adf9299ffaffb8f0084376da5681ead5c5bf39ac"
+    },
+    {
+      "AuditID": "N0QOMABT1O11VAXF",
+      "Message": {
+        "Time": "22/04/2019 11:46:00:643EDT",
+        "App": "LDAP",
+        "accountID": "user.12",
+        "EventMessage": "Capture the response message",
+        "EventDesc": "Service response message is JSONObject[\"hostname1\"] not found.",
+        "Operation": "TRIGGER SCIM SERVICE",
+        "Status": "failed"
+      },
+      "HashMessage": "1000:5b424031623631303962:06a59cde77a6bd1a99503faa00426827c5cbe17d0f553596841936c0791dcdfc8f751d103480cad919ba41af0c14a04fbc2c43d818eeb7a311af041f29565849"
+    },
+    {
+      "AuditID": "N0QOMABT1O11VAXF",
+      "Message": {
+        "Time": "22/04/2019 11:46:00:653EDT",
+        "App": "LDAP",
+        "accountID": "user.12",
+        "EventMessage": "Delete operation failed",
+        "EventDesc": "User 'user.12' delete failed because of JSONObject[\"hostname1\"] not found.",
+        "Operation": "TRIGGER SCIM SERVICE",
+        "Status": "failed"
+      },
+      "HashMessage": "1000:5b42403236653862666436:835d032281419073acdfe25b48834b37be3a548dc7ffc81a2d4bc043317fd90b1e34fc88f2beac3778859f48f1a1d1ebda2a33ce953cf894541f5bcbfe9c65fd"
+    },
+    {
+      "AuditID": "N0QOMABT1O11VAXF",
+      "Message": {
+        "Time": "22/04/2019 11:46:00:665EDT",
+        "App": "LDAP",
+        "accountID": "user.12",
+        "EventMessage": "Update the failed transaction record",
+        "EventDesc": "Update record for user 'user.12' in the table with the reason of failure",
+        "Operation": "RETRY FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403734396430383233:1cd8862d53837412118ed1cbc5823398f5922204685ba70304ffb966a98655ac84b630f591a0e1fd227a1bf69ac93ce60ebdeb85d3833f9c6a2f64f907b87168"
+    },
+    {
+      "AuditID": "N0QOMABT1O11VAXF",
+      "Message": {
+        "Time": "22/04/2019 11:46:00:691EDT",
+        "App": "LDAP",
+        "accountID": "user.12",
+        "EventMessage": "Check and Verify automatic retry count",
+        "EventDesc": "Check and Verify that an automatic retry had not reached the maximum limit for the record with unique ID 12",
+        "Operation": "RETRY FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403666373362663631:820ab1511faf977b932468f41e2ae02b463010663d57bcf9240dc4eb186295b5440b0d14f2f2c163d990f311d67e818b8f8f00584d24e750e5ecb0f3dd87f91f"
+    },
+    {
+      "AuditID": "N0QOMABT1O11VAXF",
+      "Message": {
+        "Time": "22/04/2019 11:46:00:701EDT",
+        "App": "LDAP",
+        "accountID": "user.13",
+        "EventMessage": "Initiate automatic retry",
+        "EventDesc": "Initiate automatic retry",
+        "Operation": "RETRY FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403663636537366364:fd9d4b10fa741c316feb32124cb6feee1ce849a1e0d74f6d5974e0983a0fcad8df57fc90419fd3823b89f3c53374edaeb3eed7652a981761fdb394eeda35206c"
+    },
+    {
+      "AuditID": "N0QOMABT1O11VAXF",
+      "Message": {
+        "Time": "22/04/2019 11:46:00:714EDT",
+        "App": "LDAP",
+        "accountID": "user.13",
+        "EventMessage": "Initiate Delete operation",
+        "EventDesc": "Initiate SCIM service for Delete operation",
+        "Operation": "RETRY FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403331346530363434:de2c53b51a42af584e1ac567de135ea54c7dd37199483685cf21f3a01bef54c6d3647480c940cd60fdf5246e4e7dfe6f10271fa44edaa477faf5c99c19f36dba"
+    },
+    {
+      "AuditID": "N0QOMABT1O11VAXF",
+      "Message": {
+        "Time": "22/04/2019 11:46:00:726EDT",
+        "App": "LDAP",
+        "accountID": "user.13",
+        "EventMessage": "Initiate and hit SCIM service",
+        "EventDesc": "Initiate HTTP/HTTPS URL connection to SCIM server and hit the service 'http://192.168.56.102:9090/scim/v2/286BSAHE/Users/user.13'",
+        "Operation": "TRIGGER SCIM SERVICE",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403263343464343738:003b17ff967b6fb6dbe727955002e0151528661097fe7128e0e3acac47cfe31985758d9d6eb6deb7b0d99250f2acb9742d4028259346b05fc01925316dd0ff68"
+    },
+    {
+      "AuditID": "N0QOMABT1O11VAXF",
+      "Message": {
+        "Time": "22/04/2019 11:46:00:858EDT",
+        "App": "LDAP",
+        "accountID": "user.13",
+        "EventMessage": "Capture the service response code",
+        "EventDesc": "Service response code is 500",
+        "Operation": "TRIGGER SCIM SERVICE",
+        "Status": "failed"
+      },
+      "HashMessage": "1000:5b424066323033383234:ef0dd4afef735c0d96751fbda99e7cff1ba94a5f24cafa5de3bbc707feab6ed77e34dff7b092f3abd03744b15d92d7e27e876a2362af0b2c5b142994514e008c"
+    },
+    {
+      "AuditID": "N0QOMABT1O11VAXF",
+      "Message": {
+        "Time": "22/04/2019 11:46:00:871EDT",
+        "App": "LDAP",
+        "accountID": "user.13",
+        "EventMessage": "Capture the response message",
+        "EventDesc": "Service response message is JSONObject[\"hostname1\"] not found.",
+        "Operation": "TRIGGER SCIM SERVICE",
+        "Status": "failed"
+      },
+      "HashMessage": "1000:5b42403262653630373865:637b847fc6e7525a423f1d9806a02977cac88cb1c9ea40c139246c6549c3d1a164059638dfb78972ff0a2312ba898876c10f97608d5766b0133e83bf7f429409"
+    },
+    {
+      "AuditID": "N0QOMABT1O11VAXF",
+      "Message": {
+        "Time": "22/04/2019 11:46:00:885EDT",
+        "App": "LDAP",
+        "accountID": "user.13",
+        "EventMessage": "Delete operation failed",
+        "EventDesc": "User 'user.13' delete failed because of JSONObject[\"hostname1\"] not found.",
+        "Operation": "TRIGGER SCIM SERVICE",
+        "Status": "failed"
+      },
+      "HashMessage": "1000:5b4240366436386438:6e226eb8dd50de7ba8de0180f7d699fb86ff10ccc8daba6e0dea5e3b0736d27a00203baff952c5763476e32ccb987f54ad2d0bf4d5fef000a2c16e495c60e96f"
+    },
+    {
+      "AuditID": "N0QOMABT1O11VAXF",
+      "Message": {
+        "Time": "22/04/2019 11:46:00:897EDT",
+        "App": "LDAP",
+        "accountID": "user.13",
+        "EventMessage": "Update the failed transaction record",
+        "EventDesc": "Update record for user 'user.13' in the table with the reason of failure",
+        "Operation": "RETRY FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403635356661663534:d75bd9c4aad01124463ec342b808a3e8f71b5786eafa50303375bd79668a6db1e4696c6a1e5a42c6960430bd232aaa73414125e44c45f1329fbb19317dbecd19"
+    },
+    {
+      "AuditID": "N0QOMABT1O11VAXF",
+      "Message": {
+        "Time": "22/04/2019 11:46:00:922EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Auto Retry reached the maximum attempt",
+        "EventDesc": "There are few records in table for which auto retry reached the maximum attempt",
+        "Operation": "RETRY FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403337383731306331:1095ce4d2800b85b84fa92ecf55594c279247dcb4b2204c3fdd67d5eb5c8348f0023fc820cd778ceec2d29ca0c42d602e0240a5d5026d6d021216f78f487e4df"
+    },
+    {
+      "AuditID": "N0QOMABT1O11VAXF",
+      "Message": {
+        "Time": "22/04/2019 11:46:00:934EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Notify the operation team",
+        "EventDesc": "Notify operation team about the failed record for which Automatic retry has reached the maximum attempt",
+        "Operation": "RETRY FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403535363564666565:caedfe4a38756708ecb561ee144d4c547e6377ede67ec2f2712d7a9d2d652ea0ca1be8e97a3c3edf57da0718249280f0b2850064a0cf85bc22467847323ccd10"
+    },
+    {
+      "AuditID": "N0QOMABT1O11VAXF",
+      "Message": {
+        "Time": "22/04/2019 11:46:00:956EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Email address of operation team",
+        "EventDesc": "To address is srinivas.addala@kapstonellc.com",
+        "Operation": "RETRY FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403539323036306463:a347fa18c7bdc7f93ca3369195f673c67bcbb4f341870b9c5bb8e3e38ecb87567a7ae83ffb817fecbdd089c434cc59bdc47f38899663483f3d56a3700edf7525"
+    },
+    {
+      "AuditID": "N0QOMABT1O11VAXF",
+      "Message": {
+        "Time": "22/04/2019 11:46:00:965EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Email address of operation team",
+        "EventDesc": "CC address is NONE",
+        "Operation": "RETRY FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403436623433616465:89b000d03d5945d9c9eb90864b454285e91836696ce30447243566c23305faf360a368d6acaaa32435a4803e88ed4e6b2c402aaeed5f99ee62795bd342242a52"
+    },
+    {
+      "AuditID": "N0QOMABT1O11VAXF",
+      "Message": {
+        "Time": "22/04/2019 11:46:00:977EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Email address of operation team",
+        "EventDesc": "BCC address is NONE",
+        "Operation": "RETRY FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b424037336535643537:8734d37c0b38823565fc83f1631e517f55af34945eccc9b3070ce4938a42912ebca10eb0374ab33b1eea88796336830770345dca48ce8ef731a46e0026b9780d"
+    },
+    {
+      "AuditID": "N0QOMABT1O11VAXF",
+      "Message": {
+        "Time": "22/04/2019 11:46:00:989EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Initiate Notification service",
+        "EventDesc": "Initiate Notification service and send email",
+        "Operation": "RETRY FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403438323764323766:5bb44b7dfdb2123ae7fbe4b7186f59b6893350912ee77dbfaa4513d43af98faf7ce113024a8753ee461cc25d13f39ab7464fe7c8410a8e0be2291dff160bed9b"
+    },
+    {
+      "AuditID": "40L12C2HO8GAALCX",
+      "Message": {
+        "Time": "22/04/2019 11:48:00:148EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "No transactional failed records",
+        "EventDesc": "Did not find any transactional failed records",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403631616636623134:74771fefd92fa356d07f6b032522aeaa79cc14ab3087c3b7695c5ce1acdf13da3de7ab69fe90334face9c291dbc8bd43ecf333ddddbb9da25e45a1ff32f7cb22"
+    },
+    {
+      "AuditID": "40L12C2HO8GAALCX",
+      "Message": {
+        "Time": "22/04/2019 11:48:00:172EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Closed database connection",
+        "EventDesc": "Successfully Closed database connection",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403561386465343633:5855cf736e8a13ea34afbcab76389aa42c654e0d0e566247a3054f01301c50eca2355a77643dce5f006b45a024f965f868db38a330b7ace426f122652ba11fd3"
+    },
+    {
+      "AuditID": "TXTV8WP83VKNOOBT",
+      "Message": {
+        "Time": "22/04/2019 11:49:00:149EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Successfully connected to database",
+        "EventDesc": "Successfully connected to database",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b424037396264386634:a2bafb18504c67ae2f5f2a702db442db0e096b28b642c83ff85ff40e84d120e30f2fba794b47c946e29c32866e413f3cb5ffc844177acafcab76d12f3fbcfe8d"
+    },
+    {
+      "AuditID": "TXTV8WP83VKNOOBT",
+      "Message": {
+        "Time": "22/04/2019 11:49:00:170EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Prepare SQL select statement",
+        "EventDesc": "Successfully prepared SQL select statement to get all records for which auto retry is not reached the maximum attempt",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403630396331383162:93da88119c5722a3d26cc2fde6947502f7568f35224806995d404142651de5f5dfa337b2b9f16ef214859b11603abfb5ffab740742c75d77ce39687acdb21580"
+    },
+    {
+      "AuditID": "TXTV8WP83VKNOOBT",
+      "Message": {
+        "Time": "22/04/2019 11:49:00:192EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "No transactional failed records",
+        "EventDesc": "Did not find any transactional failed records",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403532363733656265:f9dc4855235a1605d2777ca744c2e13a5656edec643c80d984d5b97330a08c296bc716376bd51d10207a9508532712407cbe7e74c1d6d7bd58d36e2cba84c73c"
+    },
+    {
+      "AuditID": "TXTV8WP83VKNOOBT",
+      "Message": {
+        "Time": "22/04/2019 11:49:00:386EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Closed database connection",
+        "EventDesc": "Successfully Closed database connection",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403235356433366135:c777de096e25e4496b4f914f797a85b912c553aeba5f1a9bdd72a07cf60044b8b554ddd112eaff27b17edff2a4e59f1057139f26ed90a3d92d85bc5d9664f7ef"
+    },
+    {
+      "AuditID": "MA2CID0IT99RGSDQ",
+      "Message": {
+        "Time": "22/04/2019 11:50:00:195EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "No transactional failed records",
+        "EventDesc": "Did not find any transactional failed records",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403361643036646238:724d94578acd42ac0c2a0bb09256e897ed1617677e7cb74f7c0ed6ed8d5c5444858242ba246a02704209c3e5e92a8fb9b0c71f66b430d4dc7cfbaf0711655370"
+    },
+    {
+      "AuditID": "MA2CID0IT99RGSDQ",
+      "Message": {
+        "Time": "22/04/2019 11:50:00:217EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Closed database connection",
+        "EventDesc": "Successfully Closed database connection",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403633343330303037:8fde1ed9f637fd2699509ccfb59e3ad920d4c2d0d2c4023f1a9ad97a865e5b067eeeaf8be3ec6403e8d9a05905f4e4d16b68d120653337b861fea396308fb217"
+    },
+    {
+      "AuditID": "VYDRP74X0D6MQPGL",
+      "Message": {
+        "Time": "22/04/2019 11:51:00:166EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Closed database connection",
+        "EventDesc": "Successfully Closed database connection",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403565626463626238:13b51ff199b233329d88006d36b21df1c277373bf4cb58281deb6b1ef01485aed75a94cae92e541c7629ad375c5caed7d15d1d5b73efd99a86ca45cf5ba41437"
+    },
+    {
+      "AuditID": "0133AGSPYFPVMQFT",
+      "Message": {
+        "Time": "22/04/2019 11:52:00:161EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Prepare SQL select statement",
+        "EventDesc": "Successfully prepared SQL select statement to get all records for which auto retry is not reached the maximum attempt",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403331333835373831:b6883026bb40f1c116ac55f24cc27e5fd7c178d4a0571ba355c6321b9c04d8a425f4dc19b4cbf5dcf415c77e858b5341068a2755cf055a3aea6ba74a6b199f7e"
+    },
+    {
+      "AuditID": "0133AGSPYFPVMQFT",
+      "Message": {
+        "Time": "22/04/2019 11:52:00:195EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "No transactional failed records",
+        "EventDesc": "Did not find any transactional failed records",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403736323163306634:7d280056b1f14e62b0ebb9ea61f91895ae1a050fbddab8910560979f983a944d6114f73843b44838a9ad41e86f7d7f6a379ef78bd2287f9a4eed7379bd5db13f"
+    },
+    {
+      "AuditID": "0133AGSPYFPVMQFT",
+      "Message": {
+        "Time": "22/04/2019 11:52:00:382EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Closed database connection",
+        "EventDesc": "Successfully Closed database connection",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403564646633336234:0985c867d9027ee76beda47a8d1579903f2d70ec0469293b714e0beb691a015e7c75d8b5b209d330edc7249a967ba77b53c49d75b60889a5cf78d9f5889f305f"
+    },
+    {
+      "AuditID": "4IHCC4LNLDMX5PI2",
+      "Message": {
+        "Time": "22/04/2019 11:54:00:110EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Database connection parameters",
+        "EventDesc": "JDBC connection URL is 'jdbc:mysql://192.168.1.106:3306/scheduler'",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b424036623638396439:f6d2b289ee3919f920710e4ddc7f521bdf25c4c9eb9caf2964b96bde6cf987d9ab5017c497a50a43d1aa28e31615d8d964d07aa94c85a69446b7ff60b2282942"
+    },
+    {
+      "AuditID": "4IHCC4LNLDMX5PI2",
+      "Message": {
+        "Time": "22/04/2019 11:54:00:131EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Database connection parameters",
+        "EventDesc": "Schema to connect database is 'asro'",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403437653032376464:43eca5767b6d6b8e1958fb14ca2d015b14d139d5162d04b14d00b9a6c67c6cd15798119c8b490cf7504db5fdb841da197ce30a570a776c1d316bcc984e9d2751"
+    },
+    {
+      "AuditID": "4IHCC4LNLDMX5PI2",
+      "Message": {
+        "Time": "22/04/2019 11:54:00:336EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Successfully connected to database",
+        "EventDesc": "Successfully connected to database",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403332346466326161:4ada538a9887de67dd6eb039128a9a18c757240b81154e60a31bc49df84df214bcc06bf2b0946c03d95403ee9961f86a54a073a46fe7bb2cf06ac7ed13efe884"
+    },
+    {
+      "AuditID": "4IHCC4LNLDMX5PI2",
+      "Message": {
+        "Time": "22/04/2019 11:54:00:359EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Prepare SQL select statement",
+        "EventDesc": "Successfully prepared SQL select statement to get all records for which auto retry is not reached the maximum attempt",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403535336337393665:b42fba82705aa8245c7d6623b2b629d706e4b435e670ee52fb46277169e968faf253031c9c1a1ab21cceaf10f8542ff2a6b5067c026658d227f35244aaec0f7a"
+    },
+    {
+      "AuditID": "4IHCC4LNLDMX5PI2",
+      "Message": {
+        "Time": "22/04/2019 11:54:00:375EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "No transactional failed records",
+        "EventDesc": "Did not find any transactional failed records",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403330643737626436:5b56c4352d3138cc5ff9d7963735b62be70536374209fc68c1122d51840d95e26e00fe81cde0c313e3e42bd6586a80c1c08644f94021cf668f1dcaf32c1ac392"
+    },
+    {
+      "AuditID": "4IHCC4LNLDMX5PI2",
+      "Message": {
+        "Time": "22/04/2019 11:54:00:396EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Closed database connection",
+        "EventDesc": "Successfully Closed database connection",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403334396533653062:b2255a171b6f6e266122ec18b6303ac79738acf681eac5a4e601abc6b4311928ad4395f82d52e4e698cc2189b7518ef7732e678bad968e2c587dd3310845884a"
+    },
+    {
+      "AuditID": "UCZRFZ7JSMBE4197",
+      "Message": {
+        "Time": "22/04/2019 11:55:00:108EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Database connection parameters",
+        "EventDesc": "Schema to connect database is 'asro'",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403432633730396435:700a56368e880b84257b80fcb50b97c1ccdd51de0ccde7aaf155ebc5ee433184088c973f94831647e877b0b24f0cdb0fe1208135939e417fc5ac1b2df93f2dc4"
+    },
+    {
+      "AuditID": "UCZRFZ7JSMBE4197",
+      "Message": {
+        "Time": "22/04/2019 11:55:00:134EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Successfully connected to database",
+        "EventDesc": "Successfully connected to database",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403433366565356261:d56d9df18c868eeb4c4d2c82e1dd9fd14d9fe8499ef590d86eebb9b55d08ebf4bd3183f1b5b7b156aff60c2147105091bb06a4c0aceda5a37f0cd57be4a6a83c"
+    },
+    {
+      "AuditID": "UCZRFZ7JSMBE4197",
+      "Message": {
+        "Time": "22/04/2019 11:55:00:344EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Prepare SQL select statement",
+        "EventDesc": "Successfully prepared SQL select statement to get all records for which auto retry is not reached the maximum attempt",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403530653966343138:e6bc26a04fc014e3f84b5312a955c7e8526a6393f2014ef40adc2e749e5c9e46cd608002a0b08c8b2acb08578a0cbfb29d3bf565e9bb19434a9bd48ddd8e571b"
+    },
+    {
+      "AuditID": "UCZRFZ7JSMBE4197",
+      "Message": {
+        "Time": "22/04/2019 11:55:00:374EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "No transactional failed records",
+        "EventDesc": "Did not find any transactional failed records",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b4240623737663634:302be520fdcfdc77a59b81241b83f5e0a6c5e8c6b2c19f9ad7272f501365f7d74e9eb6f46e33e83e96b2cb99212a214330c00d223e369f4b2464d5fedd7a2f37"
+    },
+    {
+      "AuditID": "UCZRFZ7JSMBE4197",
+      "Message": {
+        "Time": "22/04/2019 11:55:00:389EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Closed database connection",
+        "EventDesc": "Successfully Closed database connection",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403432616532663362:49a429ebc71597497e208acd86707e7c132424d5e667887e90af9e1e4306b344538d294bc81b4ed669e7cbb32665849b0d2dc4a79d4584ac06f89c2d6d5ec50a"
+    },
+    {
+      "AuditID": "CBDL1IQQTKNX529G",
+      "Message": {
+        "Time": "22/04/2019 11:56:00:145EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Successfully connected to database",
+        "EventDesc": "Successfully connected to database",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403535616333653735:107b71e2efa26d1665780a0b8019202d478a161ac396b9de2ca88cbb27e8ade9128614a468c1081da90980bb74c84e9a776cf2d89293d26de8a314c4e382b26d"
+    },
+    {
+      "AuditID": "CBDL1IQQTKNX529G",
+      "Message": {
+        "Time": "22/04/2019 11:56:00:166EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Prepare SQL select statement",
+        "EventDesc": "Successfully prepared SQL select statement to get all records for which auto retry is not reached the maximum attempt",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b424035323436633964:d7d9308eea96a3d9e51e54954279ea9106ffad6e265927d0c976cd3b071eab03a305d8e54020f3f1f0b6408486fdbfc0663a472f6e08c7309ddadeaf6c47f936"
+    },
+    {
+      "AuditID": "CBDL1IQQTKNX529G",
+      "Message": {
+        "Time": "22/04/2019 11:56:00:381EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "No transactional failed records",
+        "EventDesc": "Did not find any transactional failed records",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403664363165333738:a5c05a377cea2ae282a7880131a990dbc808d161e674a7cd4e02364b54371e5a71c9185f15c8218e976236658434b827a3df798b0619c06613076d6adc54147b"
+    },
+    {
+      "AuditID": "CBDL1IQQTKNX529G",
+      "Message": {
+        "Time": "22/04/2019 11:56:00:395EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Closed database connection",
+        "EventDesc": "Successfully Closed database connection",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403765303361326465:dc4d95b708cbf9e920082fda6b2672c69502ed3400f0acab4116e9e585cc40ee9d4d8d081c70f5e0a8290bb51c2c1dafbf03416a7bd08d47025acaff1178ecef"
+    },
+    {
+      "AuditID": "436HH3O5MO486DJM",
+      "Message": {
+        "Time": "22/04/2019 11:57:00:153EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Successfully connected to database",
+        "EventDesc": "Successfully connected to database",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403266656236343836:ae065caf595f0c653c01797ce63259b6434cb4aecdf7623c34dc3cca7383231b2c3b24f5846f504dada9122cf74118b98d31274ad8374bfbb12b6be073a5e331"
+    },
+    {
+      "AuditID": "436HH3O5MO486DJM",
+      "Message": {
+        "Time": "22/04/2019 11:57:00:182EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Prepare SQL select statement",
+        "EventDesc": "Successfully prepared SQL select statement to get all records for which auto retry is not reached the maximum attempt",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b424034666366353635:89808b84156ce875129780b44369f2eff5cbf98abf6b9fcf374b8fa86e132536542ad1672800fee09a74fdb580717eb43a447106adc348be389ed14004ae4659"
+    },
+    {
+      "AuditID": "436HH3O5MO486DJM",
+      "Message": {
+        "Time": "22/04/2019 11:57:00:389EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "No transactional failed records",
+        "EventDesc": "Did not find any transactional failed records",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403533653763393037:d458b866376f30f3af72f5b4667045efacb86768319d3375ac819d8751cd59436098042cb494ec8000867b2c3563cdb665e9df1d35d9e89b01b05e08e96b8c8b"
+    },
+    {
+      "AuditID": "436HH3O5MO486DJM",
+      "Message": {
+        "Time": "22/04/2019 11:57:00:419EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Closed database connection",
+        "EventDesc": "Successfully Closed database connection",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b424061363638653664:b857f0cee8d3726f011b04895976aee91c5a5dec30947f9b47efa9ca12b55e984b53abbe7f9793379fdb2f350595e26999af729b8041daacf138ef3d1445f9b4"
+    },
+    {
+      "AuditID": "69U3XLXG0PT5N89Y",
+      "Message": {
+        "Time": "22/04/2019 11:59:00:138EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Successfully connected to database",
+        "EventDesc": "Successfully connected to database",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403435353063363263:e8a75d6c051afd599384bdca8d06e6bd165eaee8bf01d2d58be07d206b9fffdd6a749e8910739bf936f19e8853aabee417f9ac90ae20d00722f550347562bfd7"
+    },
+    {
+      "AuditID": "69U3XLXG0PT5N89Y",
+      "Message": {
+        "Time": "22/04/2019 11:59:00:156EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Prepare SQL select statement",
+        "EventDesc": "Successfully prepared SQL select statement to get all records for which auto retry is not reached the maximum attempt",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403136343935626137:08cf29d9bd6d54c2a6cd5fc040f0c758ab77d3419f1387b6e4cb360bb3f005d644bca4679eae06a2ff115e03e83c8cf2d34928f124d41bb8047c8234f8ff9d62"
+    },
+    {
+      "AuditID": "69U3XLXG0PT5N89Y",
+      "Message": {
+        "Time": "22/04/2019 11:59:00:172EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "No transactional failed records",
+        "EventDesc": "Did not find any transactional failed records",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403736353665366430:e2b375999485b7d3e1bea2081ee0d2bc15adfa2b4c0c7ae1d65866caef3550853ba8df037c83ed256ec9039882a2666a7e9cc248fb73c9823ad008daf41098ff"
+    },
+    {
+      "AuditID": "69U3XLXG0PT5N89Y",
+      "Message": {
+        "Time": "22/04/2019 11:59:00:373EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Closed database connection",
+        "EventDesc": "Successfully Closed database connection",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403364643836393962:29fd02b4a125acc0b62461410e10f77552da328a1bbec0e66be984947ce7f00643d484bf906e6ca0c293c53374139bf47c4d78c59b334bd71a401650e6fda84b"
+    },
+    {
+      "AuditID": "WP67AHE2LU3A4A8K",
+      "Message": {
+        "Time": "22/04/2019 12:00:00:130EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Successfully connected to database",
+        "EventDesc": "Successfully connected to database",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403436633134366530:9c8646aed78f938d392ad4f98c0068b5c00767da72b2df8e035992cae1c1c467cbee94ba085fbeda17b8337db431f2f800260d3535d9112851a1b04d54313f1e"
+    },
+    {
+      "AuditID": "WP67AHE2LU3A4A8K",
+      "Message": {
+        "Time": "22/04/2019 12:00:00:160EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Prepare SQL select statement",
+        "EventDesc": "Successfully prepared SQL select statement to get all records for which auto retry is not reached the maximum attempt",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403234336331626131:b186c04dd139d7c41435e01aab672ba2e00f7156a4bd9227197622d60ee78aac6dd8409db8bf09d95edf6c4b2f84789dcd9d8a59dc9bd8588b28759aa8db5aa1"
+    },
+    {
+      "AuditID": "WP67AHE2LU3A4A8K",
+      "Message": {
+        "Time": "22/04/2019 12:00:00:361EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "No transactional failed records",
+        "EventDesc": "Did not find any transactional failed records",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403562366361326365:5c6f1b893cc96e1695cc0b202cafb94961a004bc248ce67e51b437d6742b994df9a27f32e42ff83d893334dcc71a53b9aa8948d1f831fa8ffc3c05e2e7919643"
+    },
+    {
+      "AuditID": "WP67AHE2LU3A4A8K",
+      "Message": {
+        "Time": "22/04/2019 12:00:00:387EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Closed database connection",
+        "EventDesc": "Successfully Closed database connection",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403435303166653135:f25ec14aea35aa5573cbf17f2b4be3bd0c8673603c368cdb20cea58ab41e67e1fea2b572dee4cffcb9ba2fc7be43fd541694a51da64b10e798c33d7a83b2a9fc"
+    },
+    {
+      "AuditID": "3874VW7NHNH9ET3S",
+      "Message": {
+        "Time": "22/04/2019 12:01:00:140EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Prepare SQL select statement",
+        "EventDesc": "Successfully prepared SQL select statement to get all records for which auto retry is not reached the maximum attempt",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403239663763626562:723883e3c3aa33468a08468cd286361e70a63f7a02d20436a53137ee8b2e0c9826deee8a71530aba1eb85b04fba43fd2921d04539662c88c400a861b9de889ca"
+    },
+    {
+      "AuditID": "3874VW7NHNH9ET3S",
+      "Message": {
+        "Time": "22/04/2019 12:01:00:167EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "No transactional failed records",
+        "EventDesc": "Did not find any transactional failed records",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403731353933646266:a890d76fef5be4f05e5158bb98e079261c0088e3c7bcf7dcf4af68cbac9670ed0a34e96bf71a5d5407120e939bf6c239779285eb96085e2adac5299e79e0d511"
+    },
+    {
+      "AuditID": "3874VW7NHNH9ET3S",
+      "Message": {
+        "Time": "22/04/2019 12:01:00:367EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Closed database connection",
+        "EventDesc": "Successfully Closed database connection",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403664303431336234:fe95f5df94e7ba7735740ebe60861f1f9a54362e5196ce487267b5f2edd9fef9f2e0402f393e8607af9d7caca91a5e8c777164d7063beae9b4cc189a9e659711"
+    },
+    {
+      "AuditID": "UAJJMNMDCXYX9WFV",
+      "Message": {
+        "Time": "22/04/2019 12:02:00:139EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Initiate database connection",
+        "EventDesc": "Get database connection parameters",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403238666336333937:5ca3cebe7f0dc56072c21c5384ca3b50f7acfe47bbe493d6eff4c40c8086011336399a6327246de3eb3cfa8e1fd0d45f95be5dbbc5c91bb13bd3db8befc9ea60"
+    },
+    {
+      "AuditID": "UAJJMNMDCXYX9WFV",
+      "Message": {
+        "Time": "22/04/2019 12:02:00:156EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Database connection parameters",
+        "EventDesc": "JDBC connection URL is 'jdbc:mysql://192.168.1.106:3306/scheduler'",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403339663139613264:c5edc3e2e2fe4530f46f27f3a7e58011a23ccea055ea2be8e712741d823e43cdf677d423ec42c892d2cf95161cc34e6915a48bd740b68e95eba58cc47f5de4ee"
+    },
+    {
+      "AuditID": "UAJJMNMDCXYX9WFV",
+      "Message": {
+        "Time": "22/04/2019 12:02:00:386EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Database connection parameters",
+        "EventDesc": "Schema to connect database is 'asro'",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403732313135346263:6bb759f7a417da04e3dc8b1b5e5996f85def4933bc6e8297b25b42ab7d4141b3d05818f2d1da77ae23ac28c82271bac08e9bc158805372b30ba16d26ad49fd90"
+    },
+    {
+      "AuditID": "UAJJMNMDCXYX9WFV",
+      "Message": {
+        "Time": "22/04/2019 12:02:00:407EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Successfully connected to database",
+        "EventDesc": "Successfully connected to database",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403166346363663630:f4658bfbccd4a112fda6e5250a742dcc00c23e92b4b8647c61e75d4cd957b2f4da623ebd528ab706428813b62dcb38b512be92d1424bbf57a8588bb5869877fa"
+    },
+    {
+      "AuditID": "UAJJMNMDCXYX9WFV",
+      "Message": {
+        "Time": "22/04/2019 12:02:00:420EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Prepare SQL select statement",
+        "EventDesc": "Successfully prepared SQL select statement to get all records for which auto retry is not reached the maximum attempt",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403136613463386531:5deaee40af7665e6b26fc86c12f12eb58adc4164e804800e2ceba4a1d68c84cd8807e58ab9aee7c33eeb6fa5ff023f5dc2fa0808bdfb175f4b277bdf8f0ffb68"
+    },
+    {
+      "AuditID": "UAJJMNMDCXYX9WFV",
+      "Message": {
+        "Time": "22/04/2019 12:02:00:435EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "No transactional failed records",
+        "EventDesc": "Did not find any transactional failed records",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403562396261616263:fdf51b8a89c411e6b4dd716ed711ccf9ba327561a584365df47f2c62e6d09346c24a4537a0b2a1d328e64a858b3c4312b787092b29b8af12781cc18727596dc4"
+    },
+    {
+      "AuditID": "UAJJMNMDCXYX9WFV",
+      "Message": {
+        "Time": "22/04/2019 12:02:00:447EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Closed database connection",
+        "EventDesc": "Successfully Closed database connection",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403732616338663739:7619dc8ee17b54a5a2f3ab273d382909d2b23ffae68620893a373c79b659e4e12a42fa4a742895517397f02ab0cc2ab65423a2f98d0c3c5661e7b8fedd02e5ef"
+    },
+    {
+      "AuditID": "VXFD8JKYM3DX92MZ",
+      "Message": {
+        "Time": "22/04/2019 12:03:00:125EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Closed database connection",
+        "EventDesc": "Successfully Closed database connection",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403161313931346539:facb8436565a9ec5f04013d643a9427ab3ba795d0261e4845c033ef2d4666df09268fed06541b3a1b15323f2dbafd925913819c6deb7233cae9d29eb9be29950"
+    },
+    {
+      "AuditID": "7F76VBF191L4GTE9",
+      "Message": {
+        "Time": "22/04/2019 12:04:00:135EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Successfully connected to database",
+        "EventDesc": "Successfully connected to database",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b424039393230353031:7094e9bcf4a6811acc5bb442d1f764d1e572f8b4c015172cb8aba3089dd45d81210fd0944969c59603a8802266bf15f121e2d96503a36963a36cb43d6b957f79"
+    },
+    {
+      "AuditID": "7F76VBF191L4GTE9",
+      "Message": {
+        "Time": "22/04/2019 12:04:00:154EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Prepare SQL select statement",
+        "EventDesc": "Successfully prepared SQL select statement to get all records for which auto retry is not reached the maximum attempt",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403763616336373037:6cee95a9cf0dfe63288941f1d39373a20bfcdc2800862700503c417518aed3ee1ed8a5ad32397c10d593ddcfb457f2a369d3b29c3846d95cfc935b0fbfbe27c4"
+    },
+    {
+      "AuditID": "7F76VBF191L4GTE9",
+      "Message": {
+        "Time": "22/04/2019 12:04:00:362EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "No transactional failed records",
+        "EventDesc": "Did not find any transactional failed records",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403664353833376335:4cada0fcbaf8bf9fdee0a7079510de9480dddf8b62a2d036c07da661cc370f35d2deafd31b9322494ef39a111a13df11fe87258c92ae5fc4e1e73d268f416e46"
+    },
+    {
+      "AuditID": "7F76VBF191L4GTE9",
+      "Message": {
+        "Time": "22/04/2019 12:04:00:382EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Closed database connection",
+        "EventDesc": "Successfully Closed database connection",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b424038323938363036:d5e9efcb0a44c039c7b3f5fdc41dfda0fb43ee977dd57bb3cb56ec00111059854f31bf8a1a54dbdfa75de5c00d0d88eda97387e742c5866ac68067c2daba75c1"
+    },
+    {
+      "AuditID": "LUK1GK9BG9NFNZR1",
+      "Message": {
+        "Time": "22/04/2019 12:05:00:189EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "No transactional failed records",
+        "EventDesc": "Did not find any transactional failed records",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403333316639336661:572f3b36be38c0e2dc6eae4c4ae4961b496e352d5c2e98fb8c5ff57074353c335df6370dfef1b93337b7381046b11565a1f27de4188bb081f399ab0a9ea0160c"
+    },
+    {
+      "AuditID": "LUK1GK9BG9NFNZR1",
+      "Message": {
+        "Time": "22/04/2019 12:05:00:209EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Closed database connection",
+        "EventDesc": "Successfully Closed database connection",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b424063643465316461:e856b156ddd20e623713f12bef82ef507f124408b260d0d7af3c6e78ec9de5ff628577b2279ce5daffc5f35b055cbfc9313cf41f5ece35953acf74c70aed75ab"
+    },
+    {
+      "AuditID": "BMKNUHHBDMXRFILH",
+      "Message": {
+        "Time": "22/04/2019 12:07:00:95EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Successfully connected to database",
+        "EventDesc": "Successfully connected to database",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403462643236333063:0981848b7856a54ea2034e8c7ca71a81840e0694545af4d67b6a0fd392b5f47d65de8e6dbc21d172e7c3ea4718cb4d3199659a075f59509953e7c7d39469a7c5"
+    },
+    {
+      "AuditID": "BMKNUHHBDMXRFILH",
+      "Message": {
+        "Time": "22/04/2019 12:07:00:114EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Prepare SQL select statement",
+        "EventDesc": "Successfully prepared SQL select statement to get all records for which auto retry is not reached the maximum attempt",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403763653862356162:29fb25de80c641494afa33b377c38e075e9981b1340f13785829b1163508a5ea66d75d198c67fcafb0e037f27cade61afb5947d0f53685cc34e1f22a94576f47"
+    },
+    {
+      "AuditID": "BMKNUHHBDMXRFILH",
+      "Message": {
+        "Time": "22/04/2019 12:07:00:323EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "No transactional failed records",
+        "EventDesc": "Did not find any transactional failed records",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403462366539393232:4098cbb086d965c1b45668f4f022e177dc99b083031d5232b6475e1d50f7aa94f23cf9ef3cef2e4b9a67941a8a05e5669a151c05578445d282745646ef2789d7"
+    },
+    {
+      "AuditID": "BMKNUHHBDMXRFILH",
+      "Message": {
+        "Time": "22/04/2019 12:07:00:347EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Closed database connection",
+        "EventDesc": "Successfully Closed database connection",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b424063303430356530:5f64f2c169f3a9c6c0e44f183d47d45b0d628b97bccfc117889527d1f4a16ac5a85016ce41f6e29c96204dc753e16b45a2e1e553c16e31d7d5fa460aa0e284ee"
+    },
+    {
+      "AuditID": "MYJEUN4S1IP42CG1",
+      "Message": {
+        "Time": "22/04/2019 12:08:00:136EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Successfully connected to database",
+        "EventDesc": "Successfully connected to database",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b424039666566393733:9e638567e63547253c370e225b38cbbe44360d26e6981f64a040f48fd8e45205e3b7f1a1221dedb540ba821bbe740927f6505ade90b5b560651186717f7e7360"
+    },
+    {
+      "AuditID": "MYJEUN4S1IP42CG1",
+      "Message": {
+        "Time": "22/04/2019 12:08:00:150EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Prepare SQL select statement",
+        "EventDesc": "Successfully prepared SQL select statement to get all records for which auto retry is not reached the maximum attempt",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403638363237356431:c7b9bc011dfc66591983650c4d0ceea439f4978ed948b18971821cc5f551b1f5f83654a540991d63931c44afb10663c34d937cd5ceb639be928439f4e8d42327"
+    },
+    {
+      "AuditID": "MYJEUN4S1IP42CG1",
+      "Message": {
+        "Time": "22/04/2019 12:08:00:353EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "No transactional failed records",
+        "EventDesc": "Did not find any transactional failed records",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403765313638663632:b5330d1583b6f1a462f322a112636e5726802d93dc9b87ea4b15fc6a38113327068eabad490ce7003f2e0002cbdb1b1f5c571f6a106a7971a15030b115b56908"
+    },
+    {
+      "AuditID": "MYJEUN4S1IP42CG1",
+      "Message": {
+        "Time": "22/04/2019 12:08:00:366EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Closed database connection",
+        "EventDesc": "Successfully Closed database connection",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403562666563373833:4ad75e36610bcbb550c3bafec3fcd0be55709fd89d41fb1609b3d4c9394a283b617cad72b9f778c9f232c0dde4e5b4c3b4dcbe2ab526d703f1b1531832d7a714"
+    },
+    {
+      "AuditID": "T99MZFX7Y07OTNV7",
+      "Message": {
+        "Time": "22/04/2019 12:09:00:88EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Successfully connected to database",
+        "EventDesc": "Successfully connected to database",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403334663233323038:d94c12da97199ffea47f0c9dc3fa02d095ef74a31fa4bb2fa4aaa085db54b0df307b085a3b8463120946f847ee98bb38fd11a1aace9e076e02d9489cf1ce8736"
+    },
+    {
+      "AuditID": "T99MZFX7Y07OTNV7",
+      "Message": {
+        "Time": "22/04/2019 12:09:00:99EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Prepare SQL select statement",
+        "EventDesc": "Successfully prepared SQL select statement to get all records for which auto retry is not reached the maximum attempt",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403233323861313465:744c4dde53e3b424ef9d1a4c0d354a1f433b3ca6026eb49be8263724f8c780de710340b488f2a95e26982229c531002b9c15a12f1c330d52600d03ff3ed69b9d"
+    },
+    {
+      "AuditID": "T99MZFX7Y07OTNV7",
+      "Message": {
+        "Time": "22/04/2019 12:09:00:315EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "No transactional failed records",
+        "EventDesc": "Did not find any transactional failed records",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403465663061656632:0b91771c6cb07ff7b668369c5ed1c3568bc5c79bc16f29675255eab71dc508b3b99ca20ae50c6050dd13e7a7770d7841c9f15db8fe89a8d9907857b7c8d3c613"
+    },
+    {
+      "AuditID": "T99MZFX7Y07OTNV7",
+      "Message": {
+        "Time": "22/04/2019 12:09:00:332EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Closed database connection",
+        "EventDesc": "Successfully Closed database connection",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403564616465323738:7565b7936d8432b7d32d71d493c417caddad0899b20264e0f4c3951055aed1b8ad10b2d84f85df79cbc90ac611151f6c221562e510ff71152361528f783cde9f"
+    },
+    {
+      "AuditID": "SRMX3V73OZ5CK1NW",
+      "Message": {
+        "Time": "22/04/2019 12:10:00:81EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Database connection parameters",
+        "EventDesc": "Schema to connect database is 'asro'",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403266323263333633:661a3d33e89df3f759827d265dc4b98aa5747c4c329bdc8569f3f5a3a80b7ed97b004b70e008d7b6a8aec9eeafc01e6787fe43e202e89b3ce271345d1e7e938b"
+    },
+    {
+      "AuditID": "SRMX3V73OZ5CK1NW",
+      "Message": {
+        "Time": "22/04/2019 12:10:00:102EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Successfully connected to database",
+        "EventDesc": "Successfully connected to database",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403364656430313030:0dab7a9add272932b2d3b4da69c312a9503b4de535e30373399c95bf27ff28207d0507c44c86f67f258cbc1837d9d752777ac41e6b6660e16e0fab1b0f7b8df2"
+    },
+    {
+      "AuditID": "SRMX3V73OZ5CK1NW",
+      "Message": {
+        "Time": "22/04/2019 12:10:00:306EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Prepare SQL select statement",
+        "EventDesc": "Successfully prepared SQL select statement to get all records for which auto retry is not reached the maximum attempt",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403262306435656639:414b2a02bc2000b32ee4e49011328c3a66c5bd59aa446b07fd4e226e6ab40d0462f9a1244bbdf0ef02bd9bb4ca9af70f544f21a40bd7a99f63c05a5a2d89a662"
+    },
+    {
+      "AuditID": "SRMX3V73OZ5CK1NW",
+      "Message": {
+        "Time": "22/04/2019 12:10:00:318EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "No transactional failed records",
+        "EventDesc": "Did not find any transactional failed records",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403433643635336538:6278b5c584799e838b97aa8f023c1f59a6f5ed26cae84a15f32b2b944108349a0ee66326af964bbfe75c1a5188be9429240dc882aefb599071b45b0a0313016c"
+    },
+    {
+      "AuditID": "SRMX3V73OZ5CK1NW",
+      "Message": {
+        "Time": "22/04/2019 12:10:00:331EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Closed database connection",
+        "EventDesc": "Successfully Closed database connection",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403261656639626430:6dd7339d03ab3d910a19fc60c597fdc4368998649c6d018b21a63f057993c43ac596296e5d6de4f3f769de1cc3474413d36a2785adee873b9390125bf03eca96"
+    },
+    {
+      "AuditID": "LWIK1TMYN7HQAG7Z",
+      "Message": {
+        "Time": "22/04/2019 12:11:00:62EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Database connection parameters",
+        "EventDesc": "JDBC connection URL is 'jdbc:mysql://192.168.1.106:3306/scheduler'",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403433666333353766:21a14b7a4a8bed9c9c612949fd2c35417d350d1dd7b5dfe8085549f92b6d02416afbdadbea7a54cd094c6a5caa2b88c21d1581069bac9b4e481ce3dec9581b2b"
+    },
+    {
+      "AuditID": "LWIK1TMYN7HQAG7Z",
+      "Message": {
+        "Time": "22/04/2019 12:11:00:81EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Database connection parameters",
+        "EventDesc": "Schema to connect database is 'asro'",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403733363836306366:bb9f1433246f754493270cd30917b5e22e83664baf965978557db9e26a60a9d1132952f686790b15f9767c92bee46aa3eac1c8975d4c6b5b4f506a61185f0a67"
+    },
+    {
+      "AuditID": "LWIK1TMYN7HQAG7Z",
+      "Message": {
+        "Time": "22/04/2019 12:11:00:297EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Successfully connected to database",
+        "EventDesc": "Successfully connected to database",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b424063666366343334:92ad9569090e1aaa53fcb9ca767129fd5509d7b6b873b6651696635b3828a26053c3d06409751256518d0c5c91eacb11dfb7636015c6faa4c1af495535526a76"
+    },
+    {
+      "AuditID": "LWIK1TMYN7HQAG7Z",
+      "Message": {
+        "Time": "22/04/2019 12:11:00:320EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Prepare SQL select statement",
+        "EventDesc": "Successfully prepared SQL select statement to get all records for which auto retry is not reached the maximum attempt",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403233356530326463:a06d35539ec058124872b9beebbb6c43e8f488b3059bc51beb669cecbf78fdd2437c5396fac7cb7fbb9a17518fccde3cf3f25a6a5c3a58f2e5cbfa2c2838c320"
+    },
+    {
+      "AuditID": "LWIK1TMYN7HQAG7Z",
+      "Message": {
+        "Time": "22/04/2019 12:11:00:331EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "No transactional failed records",
+        "EventDesc": "Did not find any transactional failed records",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403637666232366262:6034c6de5308839a8393ad7d19e4f4ceeddfe753af390af13bc8d6099fe9f103203b85e4dbaa403f1570d4184030f2fe1eb82110570852a346926c3f43470363"
+    },
+    {
+      "AuditID": "LWIK1TMYN7HQAG7Z",
+      "Message": {
+        "Time": "22/04/2019 12:11:00:343EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Closed database connection",
+        "EventDesc": "Successfully Closed database connection",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403562373464373761:36000e4c850c57399dc486636e0b59c0ddc9e66d772f914b8485589896bb3989e30411a140a59783ee8a0c4def9651d66ab9ab8ce9477e253a2d75e6f9726964"
+    },
+    {
+      "AuditID": "SOZKHYVC1XUM0ESK",
+      "Message": {
+        "Time": "22/04/2019 12:12:00:157EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Closed database connection",
+        "EventDesc": "Successfully Closed database connection",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403232313461326466:d147827f3712886061c70eb3445427c0352b236b5649eb611daab5a38ed45c412b0df7623dc5f6629ad2c4505d2c615949a2ca04eb7630823204f84f54476a40"
+    },
+    {
+      "AuditID": "CL3AL0H2DEU5KZSU",
+      "Message": {
+        "Time": "22/04/2019 12:13:00:153EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "No transactional failed records",
+        "EventDesc": "Did not find any transactional failed records",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403665323566353335:443a94bb34617b762c98daa22d8730fd506543e743c43d4b435bdc57650ad900df0e6bff6e868ae7ab8564ab4a08024ee203c2637e2be1ef791f0e1018944a05"
+    },
+    {
+      "AuditID": "CL3AL0H2DEU5KZSU",
+      "Message": {
+        "Time": "22/04/2019 12:13:00:169EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Closed database connection",
+        "EventDesc": "Successfully Closed database connection",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403163356263353863:d693768dd7de1380fd0acabc4a0affe2f98f45c853ce0348b398977d73f4e5567fa99cb9b828785ac291bc94d46a6777c304ba7e8d5557aa06fe0bc8ec111311"
+    },
+    {
+      "AuditID": "IIYBWVZEDR0TE2M9",
+      "Message": {
+        "Time": "22/04/2019 12:14:00:88EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "No transactional failed records",
+        "EventDesc": "Did not find any transactional failed records",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403761396232613063:423c39cb2acda8b92503566c5700d716c7ac151b7d92ee1fdb08fbe87cb76982958c230cf97974e7b851dc88b354b00e39aaf3ec82ff5a6121a704f612b76e52"
+    },
+    {
+      "AuditID": "IIYBWVZEDR0TE2M9",
+      "Message": {
+        "Time": "22/04/2019 12:14:00:99EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Closed database connection",
+        "EventDesc": "Successfully Closed database connection",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403561653332343138:bf8d05bd81eff5eb935abbada7877cedddd9fb8da853bab04e4db677e5a3522a49cd394059231713254b9ea9e7268fa4068a0fa0aaebc69cf084d8d353399f54"
+    },
+    {
+      "AuditID": "ZVTRHKU5YLFP0IVN",
+      "Message": {
+        "Time": "22/04/2019 12:15:00:140EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "No transactional failed records",
+        "EventDesc": "Did not find any transactional failed records",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403362623463666262:3e21da3f4e83b9bec8a53f7182554868cf12b31345b557180390b97b9e6a32fe04b31eaf12ba71f10d108d0061ec446ae21f727a4606c0fbf252b5b965aff625"
+    },
+    {
+      "AuditID": "ZVTRHKU5YLFP0IVN",
+      "Message": {
+        "Time": "22/04/2019 12:15:00:156EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Closed database connection",
+        "EventDesc": "Successfully Closed database connection",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403634356237643830:6e76ca702d4f5c1c1e5d229bc21a9f4658e59158c79302b824f026c1fc2683290674d7a91035f24990bc61507c7a81d43cdb11642e762de5ee72fd426f0bf031"
+    },
+    {
+      "AuditID": "7NGOL78BNBF4TP7Q",
+      "Message": {
+        "Time": "22/04/2019 12:17:00:101EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Database connection parameters",
+        "EventDesc": "JDBC connection URL is 'jdbc:mysql://192.168.1.106:3306/scheduler'",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403737333464393765:6c65b364899c86d4030acc362163b0f37fddee6a11bdfdf7c37779859933212bfc85ffb2fd2434a21e7893b739d4ac12f8a64d11345f54442ba4fa9f4f68cdff"
+    },
+    {
+      "AuditID": "7NGOL78BNBF4TP7Q",
+      "Message": {
+        "Time": "22/04/2019 12:17:00:112EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Database connection parameters",
+        "EventDesc": "Schema to connect database is 'asro'",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403764646164613535:4e3a943070e41ab3517ebc4e3ee173fc795ab710fbb77254223ae0c59e8cadbf6be39a2e58e379dae062cd1f5ef24f2fe28f1c2482feb48bcea10bff543c4a2e"
+    },
+    {
+      "AuditID": "7NGOL78BNBF4TP7Q",
+      "Message": {
+        "Time": "22/04/2019 12:17:00:355EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Successfully connected to database",
+        "EventDesc": "Successfully connected to database",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403538336534343764:91487aea42896b00a2bd3d813aa0372b47b6bad06238b0dfe1c5d5c2e3de594fa93d0239287adb474a2b5f24a88fd384f09714c08962267c5127ab7969506dc7"
+    },
+    {
+      "AuditID": "7NGOL78BNBF4TP7Q",
+      "Message": {
+        "Time": "22/04/2019 12:17:00:373EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Prepare SQL select statement",
+        "EventDesc": "Successfully prepared SQL select statement to get all records for which auto retry is not reached the maximum attempt",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403265666633663962:1cf3425c202df7b216bf1959217d8ff6f5aefda863be21790c3e5d9d5735f933dac246d804febce48cd35c52387a324d8364e8d1fc4c9526232f5669e50c849f"
+    },
+    {
+      "AuditID": "7NGOL78BNBF4TP7Q",
+      "Message": {
+        "Time": "22/04/2019 12:17:00:384EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "No transactional failed records",
+        "EventDesc": "Did not find any transactional failed records",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403730613065383131:89115f4b723409bfb03930ec1f2e7e9ac1ef9ee62cc85adcb018faf9efe2e14eeda6c83be3c6afa23ef4a3d943101d5e2f0bc39c4192f982d2f77804ee9d2feb"
+    },
+    {
+      "AuditID": "7NGOL78BNBF4TP7Q",
+      "Message": {
+        "Time": "22/04/2019 12:17:00:394EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Closed database connection",
+        "EventDesc": "Successfully Closed database connection",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403461383239346633:62952bce22c5e96997d8c213dc3324de5ccdc3c762af3a26dd3868d26d4533a9786fca0659d6b1138a71817205f1ed368b53100bf00e5ad352abec93ea3bda86"
+    },
+    {
+      "AuditID": "32YFWKN5E8Q5HI4Q",
+      "Message": {
+        "Time": "22/04/2019 12:18:00:146EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "No transactional failed records",
+        "EventDesc": "Did not find any transactional failed records",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b424064376537303265:59412096d862ddb845e0b0f4be530141673d39b74fe309f3bb4f067671b2163589c2b7493230cb2a08c6e23fb494b126520cf2b7d847066cc3128130a1783fbf"
+    },
+    {
+      "AuditID": "32YFWKN5E8Q5HI4Q",
+      "Message": {
+        "Time": "22/04/2019 12:18:00:163EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Closed database connection",
+        "EventDesc": "Successfully Closed database connection",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403465653730613262:95c054329185004131b7fccc02d850e6a575ace8dab62526d59bec067a87d0563209db497ff8a8c58e52db0078f1ca37eef87f19ffbec071f3e308d1c9998269"
+    },
+    {
+      "AuditID": "4OW1IPFGOHY64TA0",
+      "Message": {
+        "Time": "22/04/2019 12:20:00:100EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Prepare SQL select statement",
+        "EventDesc": "Successfully prepared SQL select statement to get all records for which auto retry is not reached the maximum attempt",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403165353138363735:06476879dec43d6ae91331f439d050534c1f39e075d3c6121f311d73fad88531825ce117a07b0983be73a0d2fecf33b3428e4551afbf61c37a0a9a4d2ceb7221"
+    },
+    {
+      "AuditID": "4OW1IPFGOHY64TA0",
+      "Message": {
+        "Time": "22/04/2019 12:20:00:114EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "No transactional failed records",
+        "EventDesc": "Did not find any transactional failed records",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403133366239386631:1595fb1ac3f0b32346d1d8c56a9b8497f59eb1ecabb1c698464cb5b4d93321115dbfafccd79f70b6e242c40020d7e0f994b0ce93beafbc57ab860c80bbeb6f4f"
+    },
+    {
+      "AuditID": "4OW1IPFGOHY64TA0",
+      "Message": {
+        "Time": "22/04/2019 12:20:00:313EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Closed database connection",
+        "EventDesc": "Successfully Closed database connection",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403539373133636535:d443cfd2c12c7b87c5134acb5fc9360e68e1cfef5835445c7ed6208771b8fa1520768c2b81404c8d53dcf9e7a24c07e714801acdb4f90be7512ba3ce2db2ceaf"
+    },
+    {
+      "AuditID": "6H37ALKCKNV95VMW",
+      "Message": {
+        "Time": "22/04/2019 12:21:00:114EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Prepare SQL select statement",
+        "EventDesc": "Successfully prepared SQL select statement to get all records for which auto retry is not reached the maximum attempt",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b424061356466326261:83a6a8ddb5df9396b41fcdc288ff440963cbd1ef211c01aa65903587e92a4751ff80bf2e552faac7132b622c325b927a819842deeac4c1448cc2e7ac173c3e0b"
+    },
+    {
+      "AuditID": "6H37ALKCKNV95VMW",
+      "Message": {
+        "Time": "22/04/2019 12:21:00:126EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "No transactional failed records",
+        "EventDesc": "Did not find any transactional failed records",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403236373736363237:f05876b8b2990e827d3b7bd5b978711dad8cad0239f27b92d5443f62661c6568d0a548811eae29c48dab311a5eb55c716763ae9d586df33c3859f29f5d0c63b2"
+    },
+    {
+      "AuditID": "6H37ALKCKNV95VMW",
+      "Message": {
+        "Time": "22/04/2019 12:21:00:337EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Closed database connection",
+        "EventDesc": "Successfully Closed database connection",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403637303334323266:9235d4bfb05a906d24370e7d7bbebcd5f060e8c5298451198875862f3f1f5ab4b54dfa37aa5408bd9af37cd90bb138e2f1dbb21ed2172a71d3be087f1795a852"
+    },
+    {
+      "AuditID": "R9ZBUKJ7AH0PCXL5",
+      "Message": {
+        "Time": "22/04/2019 12:22:00:115EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Prepare SQL select statement",
+        "EventDesc": "Successfully prepared SQL select statement to get all records for which auto retry is not reached the maximum attempt",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403231333634333639:c8216cff28494c05c9a38398e86d19bd8e4c5b09817ac9f95a93808834e2141c28808582724fd849fb218108e1b185aad7f5db6698a87ac9dac911a3833cd5e2"
+    },
+    {
+      "AuditID": "R9ZBUKJ7AH0PCXL5",
+      "Message": {
+        "Time": "22/04/2019 12:22:00:331EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "No transactional failed records",
+        "EventDesc": "Did not find any transactional failed records",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403564633061316336:6d473b9d69ad35f7d13df5fb9d1f7b05e638ebb908a27447c01dd7600c3e4ece994f42e5209f1c7fa89b6a77a138ebc717292f6c87a4fb4b263eeca47141da88"
+    },
+    {
+      "AuditID": "R9ZBUKJ7AH0PCXL5",
+      "Message": {
+        "Time": "22/04/2019 12:22:00:351EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Closed database connection",
+        "EventDesc": "Successfully Closed database connection",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403762613166386236:2ae1736b4ad1a9fb1734e425226f8ef96146810941ca9b2e2cef47728d7d7f4cd3d48b2bd11ed891a911c9e55ff3cd03245ee08373e8dc91ee693580e2fd754c"
+    },
+    {
+      "AuditID": "3F3TLKD5MK02V9LQ",
+      "Message": {
+        "Time": "22/04/2019 12:24:00:149EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Successfully connected to database",
+        "EventDesc": "Successfully connected to database",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403561363036663764:9e0419722dfa7e0b69053e755f003c4efff4f045fdb7e54d83b9696d741786b4e11464fdd9fea93a7e942178e29d67ceae9c0b6bc7d0acb51382569f39c1ac3a"
+    },
+    {
+      "AuditID": "3F3TLKD5MK02V9LQ",
+      "Message": {
+        "Time": "22/04/2019 12:24:00:368EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Prepare SQL select statement",
+        "EventDesc": "Successfully prepared SQL select statement to get all records for which auto retry is not reached the maximum attempt",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403533333562396231:b9f8ad35d045fd1ada628805af1f9bbb6eb4d26e82db621099ce9718b0bd9e5432677ab6318b0e5ebb1aad60272b401769273d7ed421715b1089b10e57363abd"
+    },
+    {
+      "AuditID": "3F3TLKD5MK02V9LQ",
+      "Message": {
+        "Time": "22/04/2019 12:24:00:391EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "No transactional failed records",
+        "EventDesc": "Did not find any transactional failed records",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403562613733323563:401245484f0d652aa994d23e2e116ef09f82db1183941c0ea596d7bb6937172853b23eb90894396368f8cf9761c3b9f9df6b339c76685b550a79c00d9a5f25f5"
+    },
+    {
+      "AuditID": "3F3TLKD5MK02V9LQ",
+      "Message": {
+        "Time": "22/04/2019 12:24:00:410EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Closed database connection",
+        "EventDesc": "Successfully Closed database connection",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403138666330653832:2209428775730de3eba24dea023bd4cce562001b6a8fd5c2b35a6bd239577f0004c570c56efd070179c9eec90452addd7cc140e50b7099ae94a08a8b1bc770c0"
+    },
+    {
+      "AuditID": "KDUP23A7CC5K0D93",
+      "Message": {
+        "Time": "22/04/2019 12:25:00:112EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Database connection parameters",
+        "EventDesc": "Schema to connect database is 'asro'",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403264616636353635:6fa78f4fc64068436effca4b34f1caf22cea8c00892b1ba6e63fe93950d6512f6872c60cfc3fe7a1dd85070edceaffd5c60dafd29fccd035617b6023364178ca"
+    },
+    {
+      "AuditID": "KDUP23A7CC5K0D93",
+      "Message": {
+        "Time": "22/04/2019 12:25:00:346EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Successfully connected to database",
+        "EventDesc": "Successfully connected to database",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403364366133653132:e3acdecf8f58821654724faa1c7c4b7a72d8846131fddd8cef168b8c4b90ee6f89ec538839c2794962cde06919ac31bdf9478a7600f42e57dda098b371b848ff"
+    },
+    {
+      "AuditID": "KDUP23A7CC5K0D93",
+      "Message": {
+        "Time": "22/04/2019 12:25:00:360EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Prepare SQL select statement",
+        "EventDesc": "Successfully prepared SQL select statement to get all records for which auto retry is not reached the maximum attempt",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403734613364656535:57276b5ffc3899584ffe3940d41f2cd0386d1fde0f624f08cb3508430ed834293704e1e690655d2689cbf67d815fdc230af9a7058583a7f7bb2a20fdfd719ced"
+    },
+    {
+      "AuditID": "KDUP23A7CC5K0D93",
+      "Message": {
+        "Time": "22/04/2019 12:25:00:372EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "No transactional failed records",
+        "EventDesc": "Did not find any transactional failed records",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403563616563323462:a779a187aa797dafad005093802ed0291611cdca950eb108fcbcc17312689108653593d8ecf91a9547f128565f93e28e18f7aa94a733a53260f35f3b458926b0"
+    },
+    {
+      "AuditID": "KDUP23A7CC5K0D93",
+      "Message": {
+        "Time": "22/04/2019 12:25:00:382EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Closed database connection",
+        "EventDesc": "Successfully Closed database connection",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403465373463353535:74168fb2b2b00960ceeba4af8213b9231d5c5a6d5a727f966f446b135721ffb45374a580cf1bec53a676aecd88c354e8d8acb6c116b63994c20fe2342d69e71f"
+    },
+    {
+      "AuditID": "MEHAONNYI37455K0",
+      "Message": {
+        "Time": "22/04/2019 12:26:00:116EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Prepare SQL select statement",
+        "EventDesc": "Successfully prepared SQL select statement to get all records for which auto retry is not reached the maximum attempt",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403532666131623765:99e3e31e28ad3f429bad945cb6b4804b688994c64a9e9181b8569471136c13eb660760c53e47754d1a231c93053430c668e4bd48e2ff66d389146ad047c87e6b"
+    },
+    {
+      "AuditID": "MEHAONNYI37455K0",
+      "Message": {
+        "Time": "22/04/2019 12:26:00:336EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "No transactional failed records",
+        "EventDesc": "Did not find any transactional failed records",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403532376130366439:05cc164adee1fc6beef4e05a3abe9a06446067751b36c62038985fc91fd27aeaba85737ff1a5fdc6dcc11ee276d9b4ef0e9823532db6b1cf79b529854cefb2ee"
+    },
+    {
+      "AuditID": "MEHAONNYI37455K0",
+      "Message": {
+        "Time": "22/04/2019 12:26:00:353EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Closed database connection",
+        "EventDesc": "Successfully Closed database connection",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403632653163376364:1094e97671fa4ccd19c8bd581bd62863840ac1bf221f39ae5e7ef8685cd239d2e19e132b6845a975829e450ca07542dc3205372fce7f93254fd38170050ab739"
+    },
+    {
+      "AuditID": "BHR3QZXZTIAKPB4K",
+      "Message": {
+        "Time": "22/04/2019 12:27:00:59EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Database connection parameters",
+        "EventDesc": "Schema to connect database is 'asro'",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403761646134316433:bd2c6505fe253997e7879f1de0091cf38c35f8445284fb0c8366261812bb052c94391f4b296a4642de3556bb03da2ff5f4f30d3c12305199d834fa0f0d28d022"
+    },
+    {
+      "AuditID": "BHR3QZXZTIAKPB4K",
+      "Message": {
+        "Time": "22/04/2019 12:27:00:76EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Successfully connected to database",
+        "EventDesc": "Successfully connected to database",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b424061656564356634:1121b9ba7738c327721a8f805befebebd2451ca487210da00476a6a496ebe9628df591ff6011c1f2d9ab19a38f96bb8911cde2d71e1529d39f1d193856d27fd0"
+    },
+    {
+      "AuditID": "BHR3QZXZTIAKPB4K",
+      "Message": {
+        "Time": "22/04/2019 12:27:00:272EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Prepare SQL select statement",
+        "EventDesc": "Successfully prepared SQL select statement to get all records for which auto retry is not reached the maximum attempt",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b424033353730343937:05406b3fdfd552d62d23fffdb9024b2a3cd0e63930152e8952ec4dadf6c60c6bd3dfe0d1d5c2f55d99a87973aa01376fce6f05b3ff59d9b3c39ea9ba1e83f76a"
+    },
+    {
+      "AuditID": "BHR3QZXZTIAKPB4K",
+      "Message": {
+        "Time": "22/04/2019 12:27:00:282EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "No transactional failed records",
+        "EventDesc": "Did not find any transactional failed records",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403763303564663230:3c1183f58068a8f2d9ebf0b601c3b4d9339eb244d560a2ec351566cb4e7ac6b55848b7a980e5b632f5611ccde5bb622885ae87a38e9bf9f90f236c8fc16a4878"
+    },
+    {
+      "AuditID": "BHR3QZXZTIAKPB4K",
+      "Message": {
+        "Time": "22/04/2019 12:27:00:293EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Closed database connection",
+        "EventDesc": "Successfully Closed database connection",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403362616462653438:a7f790d3462c6d504e887e707d4890adb9f84f4a1a751922a08d02695b99273259d292f728e7aa533475140d001f8ec6736692a35798959eb3336782b4065a1e"
+    },
+    {
+      "AuditID": "U9ZF58OCDBJASDCT",
+      "Message": {
+        "Time": "22/04/2019 12:28:00:70EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Initiate database connection",
+        "EventDesc": "Get database connection parameters",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403631343335623563:38990433712a614ec26cafdf62796b8c0ae54889cdcee084912a0c216ec3d9b9b5b883c9f9227486671bebc77662966b58c5e98903fe2e6c17b356233b9b716b"
+    },
+    {
+      "AuditID": "U9ZF58OCDBJASDCT",
+      "Message": {
+        "Time": "22/04/2019 12:28:00:83EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Database connection parameters",
+        "EventDesc": "JDBC connection URL is 'jdbc:mysql://192.168.1.106:3306/scheduler'",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403231623666623334:cc76c0b82080eb10e2e0418e013379ccb6b7e0377280fc03928e05e4aac211f0f85f54c291088cfb2659f5399535fc00e9f7b8397d3018c5fb3249e5abc9fbfc"
+    },
+    {
+      "AuditID": "U9ZF58OCDBJASDCT",
+      "Message": {
+        "Time": "22/04/2019 12:28:00:295EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Database connection parameters",
+        "EventDesc": "Schema to connect database is 'asro'",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403631303831376466:fbd1c861163ce2085ea3445d23f01b59ffa292cf495938d63ad565f8fd987fae87123bcc58258c22245019426fab3193e1395ceba00247e7127fd9a2b6841954"
+    },
+    {
+      "AuditID": "U9ZF58OCDBJASDCT",
+      "Message": {
+        "Time": "22/04/2019 12:28:00:327EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Successfully connected to database",
+        "EventDesc": "Successfully connected to database",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403531613538666166:cae7c2d1c459e1fd98a20bf696cd9ae5d73ba30ff8cff0ee6830c5b20828689bea2de35c1aec49f5f0992e58c190a76e3d7c09b4f319d2b322c7b11339a2be12"
+    },
+    {
+      "AuditID": "U9ZF58OCDBJASDCT",
+      "Message": {
+        "Time": "22/04/2019 12:28:00:335EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Prepare SQL select statement",
+        "EventDesc": "Successfully prepared SQL select statement to get all records for which auto retry is not reached the maximum attempt",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403166303262373765:0000a1a17e674f76b7e24a7f970b31d4334a9a689bc5b388e39388275e7277a0f2ae952dc0bbb4c7e54613d5b7c28370750a3277303027cb64cc8e693f92b7e0"
+    },
+    {
+      "AuditID": "U9ZF58OCDBJASDCT",
+      "Message": {
+        "Time": "22/04/2019 12:28:00:350EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "No transactional failed records",
+        "EventDesc": "Did not find any transactional failed records",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403465386330643937:4003ffd14c8783b7f3f0ec582d21a8807d675881373e7e740c9df1cf72a6e2c91d821bde859e89fde35fdf9338be0fe71acfd990fafc8112062925576c1414d5"
+    },
+    {
+      "AuditID": "U9ZF58OCDBJASDCT",
+      "Message": {
+        "Time": "22/04/2019 12:28:00:359EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Closed database connection",
+        "EventDesc": "Successfully Closed database connection",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403266663638303334:4e21fa4c0005e5af01f2fc4c5f12cecaf99a6dfb32aaeefebbe199ff8e3d96527c614ea96abc0755286272ea1620f3535758c400b5d5e1fae000968c8955bc58"
+    },
+    {
+      "AuditID": "JH8JWRN21ITCGV6O",
+      "Message": {
+        "Time": "22/04/2019 12:29:00:93EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Database connection parameters",
+        "EventDesc": "Schema to connect database is 'asro'",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403539393438326666:e88f06d08d9fa2317068eb68dac9a172712f1961b010290620717751d73a35c43a75c5d70d27a2a3d5ebc82c86d3310de4864e6b3aae080c76b9dd6f67226777"
+    },
+    {
+      "AuditID": "JH8JWRN21ITCGV6O",
+      "Message": {
+        "Time": "22/04/2019 12:29:00:322EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Successfully connected to database",
+        "EventDesc": "Successfully connected to database",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403333366564313461:f5a1fcf0d8edd2728381804f84b86d7da497898d60005f1c7663759622ad7e1a3ec033e442d8e4cbf967099b97ef0c184200b737a999ff849d3508d94893d250"
+    },
+    {
+      "AuditID": "JH8JWRN21ITCGV6O",
+      "Message": {
+        "Time": "22/04/2019 12:29:00:346EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Prepare SQL select statement",
+        "EventDesc": "Successfully prepared SQL select statement to get all records for which auto retry is not reached the maximum attempt",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403661303566396435:1734143336af9447e23797fbc38d56142fc467721708485c7c21404a15fd71cae5ed7d5f144e8f90d5ba3a3ee0016a566e943abd8611613b6161b05ccb3a1fa6"
+    },
+    {
+      "AuditID": "JH8JWRN21ITCGV6O",
+      "Message": {
+        "Time": "22/04/2019 12:29:00:358EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "No transactional failed records",
+        "EventDesc": "Did not find any transactional failed records",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403261306561306531:8eb11149e4e38d6e4f876b5bb2c6b4fb09d05f6a0ef7279c99f2840004f0d1df1c53e527e0ae0c10880f70a84fd0aef36190e0e5a494ee456efe1188447b4520"
+    },
+    {
+      "AuditID": "JH8JWRN21ITCGV6O",
+      "Message": {
+        "Time": "22/04/2019 12:29:00:367EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Closed database connection",
+        "EventDesc": "Successfully Closed database connection",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403730393335656438:1467e670e87d5f0d57c2767dfff7c697c9a861b2785aed522ef00f12c422e984f46c4c6c2741807fd27531a2008bab8d556d6128ab9af6542a8bfda20607d975"
+    },
+    {
+      "AuditID": "1ZWLV5682S1FFFIX",
+      "Message": {
+        "Time": "22/04/2019 12:30:00:63EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Database connection parameters",
+        "EventDesc": "JDBC connection URL is 'jdbc:mysql://192.168.1.106:3306/scheduler'",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403237326634353632:8b01387d894114e6688904ae0aacca8e1f69e2ec44114514c8296d6274005f93d9d20cfd853f94fba79d710c0838b992d283b8c1a1c1708c449cbe7cc9542448"
+    },
+    {
+      "AuditID": "1ZWLV5682S1FFFIX",
+      "Message": {
+        "Time": "22/04/2019 12:30:00:72EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Database connection parameters",
+        "EventDesc": "Schema to connect database is 'asro'",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403130616264313132:a325f97cc5615ea801dee7adc4c5156eaf21310df2b75173701cd942b12bbf67c0160357f2135c028826b0e7f07014e0e7ccf3589081fd54493bdc18780497cd"
+    },
+    {
+      "AuditID": "1ZWLV5682S1FFFIX",
+      "Message": {
+        "Time": "22/04/2019 12:30:00:301EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Successfully connected to database",
+        "EventDesc": "Successfully connected to database",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403433303331353331:ae39e9e38b499d46c6dc39cd7afa5edb7159f7d70e4796f07405dc0393e7663db364499719d073ca9112f5e2e1e48995f24f5f0b2b404d094eb22126f3ca3ec5"
+    },
+    {
+      "AuditID": "1ZWLV5682S1FFFIX",
+      "Message": {
+        "Time": "22/04/2019 12:30:00:323EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Prepare SQL select statement",
+        "EventDesc": "Successfully prepared SQL select statement to get all records for which auto retry is not reached the maximum attempt",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403237636463623838:29a71c8d76e1571d3c35b5658d0730c650d0953baeba611416dfff42f51a691aa61b56831ece86cb551881f8e8f02ac4dcbf2333c155077760a3d1ea4ffad7ef"
+    },
+    {
+      "AuditID": "1ZWLV5682S1FFFIX",
+      "Message": {
+        "Time": "22/04/2019 12:30:00:333EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "No transactional failed records",
+        "EventDesc": "Did not find any transactional failed records",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403261633261383532:ebfc95cc4ff487291a4bac014351c6c435b1ffa2f890dcc610256bacc8b2a7bf85a5686707f7004f327b18705b276e9c15948aa28831f24efec8a0341ca80243"
+    },
+    {
+      "AuditID": "1ZWLV5682S1FFFIX",
+      "Message": {
+        "Time": "22/04/2019 12:30:00:344EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Closed database connection",
+        "EventDesc": "Successfully Closed database connection",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b424034383534363436:12b87014dd76cd9dd0486c7b40514fb04992bdf87afeca20fd453399ece4311cef26eea68d4986c2853ce0b74aa8df85384da643c2c9909dfeadd8994e59fdfb"
+    },
+    {
+      "AuditID": "T51XG1G12MECATFN",
+      "Message": {
+        "Time": "22/04/2019 12:31:00:108EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Successfully connected to database",
+        "EventDesc": "Successfully connected to database",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403131313331343036:072085c8d025cc5c54662bfc1cd88d148312cf3310e0c4d93b7119a21c801482b9bd96e4a3ab0d5a4ca39514b106230c49c5ab05da902064c6db284560d8ae1f"
+    },
+    {
+      "AuditID": "T51XG1G12MECATFN",
+      "Message": {
+        "Time": "22/04/2019 12:31:00:327EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Prepare SQL select statement",
+        "EventDesc": "Successfully prepared SQL select statement to get all records for which auto retry is not reached the maximum attempt",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403432303932346136:5f787921deb0535d0a90cc647bb3e3a43148521c3ed46fa0b04030a1ebb9f0819307da57dcc7bece90aba15844e3f84ebf37377a4b4321c433ca5187dbf682ff"
+    },
+    {
+      "AuditID": "T51XG1G12MECATFN",
+      "Message": {
+        "Time": "22/04/2019 12:31:00:347EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "No transactional failed records",
+        "EventDesc": "Did not find any transactional failed records",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403439626431363033:6a9cfdfb37dcdcab2fd5d51ada0013618777ae462bd03bbf6105bef37ecf488f21083fd3181db91ccdd9c01d859a51cf662c0b31d6a1d732eadef37826a114bf"
+    },
+    {
+      "AuditID": "T51XG1G12MECATFN",
+      "Message": {
+        "Time": "22/04/2019 12:31:00:359EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Closed database connection",
+        "EventDesc": "Successfully Closed database connection",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403266353834616433:d8e50a0e0aee871cc270938d29e896e242f0462809d4dc82f535d94a78e2a3172f7afe2fdc174d2a242ee01107ee75e7e4f626b1de18ed9eb055fbb8fbef48b9"
+    },
+    {
+      "AuditID": "MDEO8IO9ZHP0KLGV",
+      "Message": {
+        "Time": "22/04/2019 12:32:00:101EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Prepare SQL select statement",
+        "EventDesc": "Successfully prepared SQL select statement to get all records for which auto retry is not reached the maximum attempt",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403630373539613737:e4c96b1c026d8b9620db9eaba44b0342c8bd904515ae4b000d41fd8991fcbbd48ecc13b65c53a1368b0ad4a0233c420259fb4ed04a0d54fe4dd88bb0549cbd5c"
+    },
+    {
+      "AuditID": "MDEO8IO9ZHP0KLGV",
+      "Message": {
+        "Time": "22/04/2019 12:32:00:115EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "No transactional failed records",
+        "EventDesc": "Did not find any transactional failed records",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403633373466633135:42642b4c4d55010f5e3476ca813d96118d25cb9201dc7366ca6cfccb37b4d6035e6f97e8c881861118aa54d16d51b689b34815c80a2b930bc6ae09779097f139"
+    },
+    {
+      "AuditID": "MDEO8IO9ZHP0KLGV",
+      "Message": {
+        "Time": "22/04/2019 12:32:00:351EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Closed database connection",
+        "EventDesc": "Successfully Closed database connection",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403138613434373463:4df388dd47d84f8b18b9d55f2f388601b4b1379fe01d0aec19890e848d9c2d7ac6d32596daa4d3a29f73529c464fb0d2fddc10d9d2a871715ca2358fb108d056"
+    },
+    {
+      "AuditID": "9XGIH2BUJJWUYCY6",
+      "Message": {
+        "Time": "22/04/2019 12:34:00:124EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Successfully connected to database",
+        "EventDesc": "Successfully connected to database",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403765336637316230:829d2e0ecbb44d339824156272ca56432558460c8112b09c9a34eac352e483f503c09a41a46180c11a18621a1abbdf5f0193a1554efeaa356f2abc4d5d25b2f9"
+    },
+    {
+      "AuditID": "9XGIH2BUJJWUYCY6",
+      "Message": {
+        "Time": "22/04/2019 12:34:00:141EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Prepare SQL select statement",
+        "EventDesc": "Successfully prepared SQL select statement to get all records for which auto retry is not reached the maximum attempt",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b424062353738393263:d1bdc3683de1b93daa6353f4d40f1a50c8291927b9894e859f018bf7f1849ac2d07adc7f306ad3d2394417c0e4293dc245999e5436ce05485feaba8011f44174"
+    },
+    {
+      "AuditID": "9XGIH2BUJJWUYCY6",
+      "Message": {
+        "Time": "22/04/2019 12:34:00:344EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "No transactional failed records",
+        "EventDesc": "Did not find any transactional failed records",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403662663662626138:4b2f07445a4e31853d99144977d5f805ad9026af38d1b1716ebcb50f49212d3fbb2912fdb85eda95032ab5d744cfae12cc32c9bcaa164d47223e32cf23926a9c"
+    },
+    {
+      "AuditID": "9XGIH2BUJJWUYCY6",
+      "Message": {
+        "Time": "22/04/2019 12:34:00:380EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Closed database connection",
+        "EventDesc": "Successfully Closed database connection",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403763383064383331:e97b211b7827a32ccd17c5ef4540461458739bf3bdcfc434c1dc0cc101304095155ffbff53170d6cb1273d0c5f39ed14f7850b982aac247ea4a04defa61b537e"
+    },
+    {
+      "AuditID": "Y0OZKPI5SLUHF3O3",
+      "Message": {
+        "Time": "22/04/2019 12:35:00:99EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Initiate database connection",
+        "EventDesc": "Get database connection parameters",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403565306462663730:dd4365db2c2cb686dd8e57daece9eece73ced8adcab88710f4b3542767b190d5cefbabd0a2f2a03b7e87c3ef4a975a55aac211f14f7d583d49fe78fc73bbc547"
+    },
+    {
+      "AuditID": "Y0OZKPI5SLUHF3O3",
+      "Message": {
+        "Time": "22/04/2019 12:35:00:108EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Database connection parameters",
+        "EventDesc": "JDBC connection URL is 'jdbc:mysql://192.168.1.106:3306/scheduler'",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403533663962613762:20627b2d228c2eb0dbb979b70ecd3a40fde7453bc6b3407c293922186a01f30317b1940fb2f441a700ccf69c9139751496c255c336ab030d0360d8d5384d6d54"
+    },
+    {
+      "AuditID": "Y0OZKPI5SLUHF3O3",
+      "Message": {
+        "Time": "22/04/2019 12:35:00:325EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Database connection parameters",
+        "EventDesc": "Schema to connect database is 'asro'",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b424036663664613736:606d441a9fed9a85a1860689c6529c801e7635e5942628cf6c874292dd9816c3a0435409d42188035019c425e7ecb67fab6519cc0b2e32a24008477d76121a06"
+    },
+    {
+      "AuditID": "Y0OZKPI5SLUHF3O3",
+      "Message": {
+        "Time": "22/04/2019 12:35:00:356EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Successfully connected to database",
+        "EventDesc": "Successfully connected to database",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403362333966613762:f9b665feea0b23bd227faa56ae1ec13eab91c5e9839c749f544cc78dbd0ca55b28103b69d039700965a7d010569dfa8f60042ae1d02dc72b238f7f8971d159fd"
+    },
+    {
+      "AuditID": "Y0OZKPI5SLUHF3O3",
+      "Message": {
+        "Time": "22/04/2019 12:35:00:368EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Prepare SQL select statement",
+        "EventDesc": "Successfully prepared SQL select statement to get all records for which auto retry is not reached the maximum attempt",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403363633562653531:6dca4baab432012ff892ec6569ef20adc486c93452f7b4cd76e34ed5f419feb6de4a323bd6c26c32139b16bc324b9cfc5d25bacbec3b14faff34ccf903e6b668"
+    },
+    {
+      "AuditID": "Y0OZKPI5SLUHF3O3",
+      "Message": {
+        "Time": "22/04/2019 12:35:00:380EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "No transactional failed records",
+        "EventDesc": "Did not find any transactional failed records",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403633616337663431:6bb3cbad2c315a18730f904942524f1f373fb29632b762c4ac5814bab2c62df8e7ebc7ff93c20bc5f2a309c483a71794693599745e7f5148edf24288f988fafb"
+    },
+    {
+      "AuditID": "Y0OZKPI5SLUHF3O3",
+      "Message": {
+        "Time": "22/04/2019 12:35:00:390EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Closed database connection",
+        "EventDesc": "Successfully Closed database connection",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b424062613535303863:bdc65e8368e8e1d8257d4ad3301529982aebea1f1b6e6a23beb4d305acf8f403749995a8ac08e899d57e4c4c395c332fcc783dc5ccac09abcb94d0fec95bb2e0"
+    },
+    {
+      "AuditID": "ZWGNCQN9XIMVJA9M",
+      "Message": {
+        "Time": "22/04/2019 12:36:00:140EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "No transactional failed records",
+        "EventDesc": "Did not find any transactional failed records",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403766383935333434:a7e9b11cdacf7c711eaf4ac511410b3d0b88581d5b9e786ca72a5920df6ef7d5e9ec495b9f02f0a12df9bfcbb981f58ac46c2173dc6c326240062102c3dad345"
+    },
+    {
+      "AuditID": "ZWGNCQN9XIMVJA9M",
+      "Message": {
+        "Time": "22/04/2019 12:36:00:150EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Closed database connection",
+        "EventDesc": "Successfully Closed database connection",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403130353165643062:7af261f0fb09464fc7e4d50b745f7d1d61ce2f849ff9e2ad2602627d56301746da74e361011985482e46a1d5353ceb66ff60a172db820a006bced02675449d59"
+    },
+    {
+      "AuditID": "5V6GG8PAOW4DKV66",
+      "Message": {
+        "Time": "22/04/2019 12:37:00:172EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Successfully connected to database",
+        "EventDesc": "Successfully connected to database",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b4240353163613034:2d6bca899aeeb3362b2b544f7937e09db4309889647fe1d264398a14468319a5a8737bf0786bfb6c8c6a88cab81cc1ce0f4e34b2ff70d700a68e862c5fbc7e94"
+    },
+    {
+      "AuditID": "5V6GG8PAOW4DKV66",
+      "Message": {
+        "Time": "22/04/2019 12:37:00:389EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Prepare SQL select statement",
+        "EventDesc": "Successfully prepared SQL select statement to get all records for which auto retry is not reached the maximum attempt",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403431316332663030:419d9adf5d2496e9e9c3a76b88d57d7719cc8d7da3cc06c6fca4b87f058141fcb262e3cdaff854cab8757bde12fa8d381b63cf4ab710c1eb5044aa3426cacfc2"
+    },
+    {
+      "AuditID": "5V6GG8PAOW4DKV66",
+      "Message": {
+        "Time": "22/04/2019 12:37:00:410EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "No transactional failed records",
+        "EventDesc": "Did not find any transactional failed records",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403130393135633361:f40fc76052505bf883b75a34eadfcd4008dee828b6bec6897ea659aa5b8dc3d39a40366b2a9990c8930900ab9e8b56586e4d8f7171108978c2e25dd0808adea0"
+    },
+    {
+      "AuditID": "5V6GG8PAOW4DKV66",
+      "Message": {
+        "Time": "22/04/2019 12:37:00:421EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Closed database connection",
+        "EventDesc": "Successfully Closed database connection",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403766333761626633:ab7069cdf6822dde430f1c7653e335347a3104d218b72be7eacd30e085000ae1505fe180b9aee634e0f9b28d4b44247ea27316b08ae6bb10da479d208d8e1dfd"
+    },
+    {
+      "AuditID": "K77CHSSNR3BZ42ZP",
+      "Message": {
+        "Time": "22/04/2019 12:39:00:110EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Successfully connected to database",
+        "EventDesc": "Successfully connected to database",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403634616634323538:290b113a6ba49506026826009e512389c7aeadb16d685d2ae122f75bc95e141cdb03a63933655a04e07109f744383b140c444e049bb36b608509ae175f5e576d"
+    },
+    {
+      "AuditID": "K77CHSSNR3BZ42ZP",
+      "Message": {
+        "Time": "22/04/2019 12:39:00:319EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Prepare SQL select statement",
+        "EventDesc": "Successfully prepared SQL select statement to get all records for which auto retry is not reached the maximum attempt",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403561383064303736:7c4f55ba413558c423d91de5c5fef890b19d8f5c0e0b49ac3ef52b63e94d230e9db07ad5600205eebb3ad7475b06968d137c8900756fd93429c32706c6db847c"
+    },
+    {
+      "AuditID": "K77CHSSNR3BZ42ZP",
+      "Message": {
+        "Time": "22/04/2019 12:39:00:347EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "No transactional failed records",
+        "EventDesc": "Did not find any transactional failed records",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403233346361663733:c8b92e7ee48b82e779e44dd82bd28796d65376bdb65889d611156214c443269eeb24264ba84609daef00588ececf2e5eeb0b0c0a705ed717fca3a93b865d1d6c"
+    },
+    {
+      "AuditID": "K77CHSSNR3BZ42ZP",
+      "Message": {
+        "Time": "22/04/2019 12:39:00:358EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Closed database connection",
+        "EventDesc": "Successfully Closed database connection",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b424065306230623334:493412a70814bd921cc626a2f50df0c04c99cfa5fecc3ba44787dcb9beac512becb72d44e07be71c1194d3e44a59d512518dd38079a062d1448ff2fe85ddf088"
+    },
+    {
+      "AuditID": "KMXOG878AEINIJC0",
+      "Message": {
+        "Time": "22/04/2019 12:41:00:50EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Database connection parameters",
+        "EventDesc": "JDBC connection URL is 'jdbc:mysql://192.168.1.106:3306/scheduler'",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b424031326165393236:1792bf048ed9e4266319eaaf342c46daa456959ff6f1be57b331f4099948f37a61e4b2d9b3588c0f28b24757595eb5be6397b0789e15a482c0359a2a33467de4"
+    },
+    {
+      "AuditID": "KMXOG878AEINIJC0",
+      "Message": {
+        "Time": "22/04/2019 12:41:00:271EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Database connection parameters",
+        "EventDesc": "Schema to connect database is 'asro'",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403231363566383861:2ddbdf34fd018bd6925d7ddad401dc78563f80b96636a37be515c16a54dc179ef60baadd289ea5a29e1fcb25128259f24d645e3db41643c2f1a9f096f4c2a4e4"
+    },
+    {
+      "AuditID": "KMXOG878AEINIJC0",
+      "Message": {
+        "Time": "22/04/2019 12:41:00:298EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Successfully connected to database",
+        "EventDesc": "Successfully connected to database",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403264396433336438:cdda2de587fb009546e9d244b518c777f3ae05e36ec4e81c124f30bc4566908457bbba1c0aee7281cdfcdd868219daf44b2c49f0e890b0c9d05d38b768dffcac"
+    },
+    {
+      "AuditID": "KMXOG878AEINIJC0",
+      "Message": {
+        "Time": "22/04/2019 12:41:00:336EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Prepare SQL select statement",
+        "EventDesc": "Successfully prepared SQL select statement to get all records for which auto retry is not reached the maximum attempt",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403136303838393136:59571924016fa9e7d791b2b4e9d499708933300424fd8bf8043d916ac40185e32ee2afb1df75d5c40aaa50cd789b60cc4cced5f5feb1932b9935637e5ddbd44d"
+    },
+    {
+      "AuditID": "KMXOG878AEINIJC0",
+      "Message": {
+        "Time": "22/04/2019 12:41:00:359EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "No transactional failed records",
+        "EventDesc": "Did not find any transactional failed records",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403561346632636465:3eee6f6a36095201dff25b7d9519c29c711d87263bb1ded269762badcfea6a0a7724b599c98cc7e095fc94371ef3f56810142bdc4087cb7ca4571a9866d5e313"
+    },
+    {
+      "AuditID": "KMXOG878AEINIJC0",
+      "Message": {
+        "Time": "22/04/2019 12:41:00:373EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Closed database connection",
+        "EventDesc": "Successfully Closed database connection",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403533353132616664:c63fd6a15843232a88f7de6ccb1bfa65da2a7092e514df1037a86459380db4a24485bec2b96b4b0c9982978cd5724303b7c921b7ef4dde8abb18ee423f8d8c92"
+    },
+    {
+      "AuditID": "UVQW4WUDNEZL4FWN",
+      "Message": {
+        "Time": "22/04/2019 12:42:00:77EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "No transactional failed records",
+        "EventDesc": "Did not find any transactional failed records",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403336383334666465:41da10b501083c5363b424f89160ba844670a342b7e1e2a35c047b0926ee91455c43fd4765e0adafaa3f824e84b7a6223d3adf231ea9e36db8d3b87ed73ffba8"
+    },
+    {
+      "AuditID": "UVQW4WUDNEZL4FWN",
+      "Message": {
+        "Time": "22/04/2019 12:42:00:300EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Closed database connection",
+        "EventDesc": "Successfully Closed database connection",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403464633464376135:c45fa6908d15ffa8f81e7ea02f74a1d0e61dacca4e7ad02388d309df5b4a58e4009e7c24084c19f3b545fc752077244885bafd3d824014192a9051aa2811fbaa"
+    },
+    {
+      "AuditID": "7UZGLKBPM8ZXX3RH",
+      "Message": {
+        "Time": "22/04/2019 12:43:00:187EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Prepare SQL select statement",
+        "EventDesc": "Successfully prepared SQL select statement to get all records for which auto retry is not reached the maximum attempt",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403665323061386330:271db1cb54120e72bef649653db52e2e8beff338bce1f94404b172659dd42fe06427714867ad9a2210729ba7dabd3b76f1ebfc1b74e5fdc9233d79e51df9ab35"
+    },
+    {
+      "AuditID": "7UZGLKBPM8ZXX3RH",
+      "Message": {
+        "Time": "22/04/2019 12:43:00:408EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "No transactional failed records",
+        "EventDesc": "Did not find any transactional failed records",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403637356232323465:a1c86ca8bbfff37703fb8b3e8382e49184ce64aab84186e4c5121ca5313c92e6146884a48b3a0cd11525d0e1e2d97ef1731f205f121a0eebbf59dd1e2686d226"
+    },
+    {
+      "AuditID": "7UZGLKBPM8ZXX3RH",
+      "Message": {
+        "Time": "22/04/2019 12:43:00:429EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Closed database connection",
+        "EventDesc": "Successfully Closed database connection",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b424063663030316465:05aadec9b1cdec478166b47c47a671ef81b27ec99e05dc0ee8ddb05a51d7b01fff5356f911fa34a341f147225e8d83b157e408216903f86c67092a6f2e9c388d"
+    },
+    {
+      "AuditID": "QZPEK3D9L97TQ6OT",
+      "Message": {
+        "Time": "22/04/2019 12:44:00:106EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Database connection parameters",
+        "EventDesc": "JDBC connection URL is 'jdbc:mysql://192.168.1.106:3306/scheduler'",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403261373666383233:3ac81baf3c944f0a926f9ce3530be8b853a5b44b7a0fc243e627bc751a2c5f139a9d61e3ca2e81b089316a44d6d3371dc000381fca839108aa6fe0a6d6068db9"
+    },
+    {
+      "AuditID": "QZPEK3D9L97TQ6OT",
+      "Message": {
+        "Time": "22/04/2019 12:44:00:324EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Database connection parameters",
+        "EventDesc": "Schema to connect database is 'asro'",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403434303337643137:c0314c9d71b6d26a2344d1dcc0d14b838d286cf1069ceb083a26aaba51119d3aae2a99d5820f59d1d62f6715064d53ec493883cb90652613b03f4d1bf9f51e26"
+    },
+    {
+      "AuditID": "QZPEK3D9L97TQ6OT",
+      "Message": {
+        "Time": "22/04/2019 12:44:00:360EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Successfully connected to database",
+        "EventDesc": "Successfully connected to database",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b424036616432373939:0fe315615d6e665c3161384cea5be5ec5871c4ee099258f1487fe4159abd80f34be6e877de6735786e1048109eb27f8c35ed4271923ed390f712948391c531f2"
+    },
+    {
+      "AuditID": "QZPEK3D9L97TQ6OT",
+      "Message": {
+        "Time": "22/04/2019 12:44:00:376EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Prepare SQL select statement",
+        "EventDesc": "Successfully prepared SQL select statement to get all records for which auto retry is not reached the maximum attempt",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b424031363139346266:e51acb173bca39d873bd1a2a232421f1fd2ceef7950b8a6a04ad3bb6bd3b9f2e486b2f1d38673f1652da7db2f6d06acb00643e418474503dba8ae748b622e3d3"
+    },
+    {
+      "AuditID": "QZPEK3D9L97TQ6OT",
+      "Message": {
+        "Time": "22/04/2019 12:44:00:386EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "No transactional failed records",
+        "EventDesc": "Did not find any transactional failed records",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403134626638393132:03d6f6f6837e8dbe85b276440305bf59f33725f064260aa6afc6bac2f77033c70680674679534afa836655b318ff55b6d0d8c06cc7f17b86fc396451c6eedb1a"
+    },
+    {
+      "AuditID": "QZPEK3D9L97TQ6OT",
+      "Message": {
+        "Time": "22/04/2019 12:44:00:403EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Closed database connection",
+        "EventDesc": "Successfully Closed database connection",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403438626534626164:493b9799cf3143b5cff1f5783334e370a0632e873eab4a82c7622da10daf43d79fb27474b37829e7e5cf48c170973cca6bb12e0f9eec662227b3446685e11af7"
+    },
+    {
+      "AuditID": "ZBIIR65WRTYRXB0S",
+      "Message": {
+        "Time": "22/04/2019 12:45:00:113EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Prepare SQL select statement",
+        "EventDesc": "Successfully prepared SQL select statement to get all records for which auto retry is not reached the maximum attempt",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403536313334363938:885efc3207af3acc99c159a231c80139a7b3b3118022dc50b68d6154352e3f27a04c46ca66d8cc3dc278e6a3dcacae219ca9e6ccffdf2f08c8631aef98824aa8"
+    },
+    {
+      "AuditID": "ZBIIR65WRTYRXB0S",
+      "Message": {
+        "Time": "22/04/2019 12:45:00:130EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "No transactional failed records",
+        "EventDesc": "Did not find any transactional failed records",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403530336363636431:c10c563a4e6446ea4a0b837c167b7800cfbbd745503e38072b14c4d000787fd0a2d205272967bdc8d30c4d0fb55986fedc8a609c42d09bd83d69707ddd400e70"
+    },
+    {
+      "AuditID": "ZBIIR65WRTYRXB0S",
+      "Message": {
+        "Time": "22/04/2019 12:45:00:328EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Closed database connection",
+        "EventDesc": "Successfully Closed database connection",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b424036636233303931:84c968b3a15b531ee85a6e806c10cbac101107bda77f2f839e4a7d4942769b378a903be7e27152b45a422f636c52796433adf0b421bcf6bb455ce26762077fff"
+    },
+    {
+      "AuditID": "PHGHMBPWTNV3EQY8",
+      "Message": {
+        "Time": "22/04/2019 12:46:00:165EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Successfully connected to database",
+        "EventDesc": "Successfully connected to database",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403761363964353366:e20b42d942a16fb15502d1ec6da8b3c79ae6078b0a6230d9539b601c874f8eccc62060aa7aaf6a6d8862318afb01e7f55fa4d8ec7496513799e2c24d2bc89dbc"
+    },
+    {
+      "AuditID": "PHGHMBPWTNV3EQY8",
+      "Message": {
+        "Time": "22/04/2019 12:46:00:382EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Prepare SQL select statement",
+        "EventDesc": "Successfully prepared SQL select statement to get all records for which auto retry is not reached the maximum attempt",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b424039633137363039:0efd4d2fd34ac132b5f2f35b9b9a3096027f0aad7c69fa328a93e0b11138a8313afb0e2d1283bdaaf8781d5a36fcbe1f7557be50cf8a12e87cfa00287dc506a5"
+    },
+    {
+      "AuditID": "PHGHMBPWTNV3EQY8",
+      "Message": {
+        "Time": "22/04/2019 12:46:00:399EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "No transactional failed records",
+        "EventDesc": "Did not find any transactional failed records",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b42403632386662636633:04d486532fc0a43d837fd7e9d5869ebc10580bf12bb4cdae7774ca1b9ce6b71315f0c49dce1b6e91b9536f8d96bc17d228fd172b81715ed90cc2ff700d86a772"
+    },
+    {
+      "AuditID": "PHGHMBPWTNV3EQY8",
+      "Message": {
+        "Time": "22/04/2019 12:46:00:412EDT",
+        "App": "LDAP",
+        "accountID": "",
+        "EventMessage": "Closed database connection",
+        "EventDesc": "Successfully Closed database connection",
+        "Operation": "GET ALL FAILED TRANSACTION",
+        "Status": "success"
+      },
+      "HashMessage": "1000:5b424062393165326564:0bd7fbbb529770fecf00c3c73cf3f14c916985096c31837a94626409521ee2e0f40c37a4c3ef9e9b0c060d1b58863c4f2edff27999254cc040f853899edde78c"
+    }
+  ],
+  "status": "success"
+}
+
+

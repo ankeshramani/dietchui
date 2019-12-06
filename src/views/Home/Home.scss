@@ -1,0 +1,15 @@
+.home-modal {
+  .close {
+    color: #fff !important;
+  }
+}
+
+.chart-back {
+  position: absolute;
+  right: 0;
+  top: -54px;
+
+  &.r-30 {
+    right: 30px;
+  }
+}

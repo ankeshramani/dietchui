@@ -1,0 +1,109 @@
+@import '../../scss/mixins';
+
+.sidebar {
+  background: #283138;
+  .custom-sidebar {
+    margin-top: -3px;
+
+    .ant-menu-item {
+      > a {
+        display: flex;
+        align-items: center;
+      }
+    }
+    &.small-menu {
+      .ant-menu-item {
+        height: 25px !important;
+        a {
+          height: 25px !important;
+          font-size: 12px !important;
+        }
+      }
+      .ant-menu-submenu {
+        .ant-menu-submenu-title {
+          height: 37px;
+          font-size: 12px !important;
+        }
+      }
+    }
+  }
+  .ant-menu-inline .ant-menu-submenu .ant-menu .ant-menu-submenu .ant-menu .ant-menu-item {
+    padding-left: 50px !important;
+  }
+  .sidebar-bottom {
+    position: fixed;
+    background: #9fa6ab;
+    width: 200px;
+    bottom: 0;
+    left: 0;
+    height: 43px;
+    padding-top: 9px;
+    font-size: 24px;
+    text-align: center;
+    transition: margin-left 0.25s, margin-right 0.25s, width 0.25s, -webkit-flex 0.25s;
+    transition: margin-left 0.25s, margin-right 0.25s, width 0.25s, flex 0.25s;
+    transition: margin-left 0.25s, margin-right 0.25s, width 0.25s, flex 0.25s, -webkit-flex 0.25s;
+
+    i.fa.fa-video-camera {
+      margin-left: 30px;
+    }
+
+    &.collapsed {
+      width: 80px;
+      i.fa.fa-video-camera {
+        display: none;
+      }
+    }
+  }
+  &.light-menu {
+    background: #fff !important;
+    border-right: 1px solid #e8e8e8;
+    overflow-x: hidden;
+    .ant-menu {
+      border-right: none !important;
+    }
+  }
+}
+
+.ant-menu-dark {
+  background: #283138;
+  .ant-menu-sub {
+    background: #424a52 !important;
+  }
+}
+
+.sidebar-fixed .app-header + .app-body .sidebar {
+  height: calc(100vh - 98px) !important;
+}
+
+.app-footer {
+  position: fixed;
+  bottom: 0;
+  height: 43px;
+  width: 100vw;
+  z-index: 999;
+  margin-left: 0 !important;
+
+  &.collapsed {
+    width: calc(100vw - 80px);
+    z-index: 9999;
+    margin-left: 80px;
+  }
+  @media (max-width: 992px) {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 992px) {
+  .sidebar {
+    .sidebar-bottom {
+      left: -200px;
+    }
+  }
+  html:not([dir="rtl"]) .sidebar-show .sidebar, html:not([dir="rtl"]) .sidebar-show .sidebar {
+    .sidebar-bottom {
+      left: 0;
+    }
+  }
+}

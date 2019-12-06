@@ -1,0 +1,17 @@
+.page-view {
+  .menu {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .menu-item {
+    min-width: 23%;
+
+    > div {
+      display: flex;
+      align-items: center;
+    }
+  }
+  .anticon.anticon-star {
+    color: #20a7d8;
+  }
+}

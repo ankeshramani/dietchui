@@ -1,0 +1,341 @@
+{
+  "links": [
+    {
+      "rel": "self",
+      "href": "http://129.213.127.79:14000/iam/governance/selfservice/api/v1/requests?requestStatus=pending&offset=1&limit=10"
+    },
+    {
+      "rel": "first",
+      "href": "http://129.213.127.79:14000/iam/governance/selfservice/api/v1/requests?requestStatus=pending&offset=1&limit=10"
+    },
+    {
+      "rel": "next",
+      "href": "http://129.213.127.79:14000/iam/governance/selfservice/api/v1/requests?requestStatus=pending&offset=11&limit=10"
+    }
+  ],
+  "count": 10,
+  "hasMore": true,
+  "totalResult": -1,
+  "requests": [
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "http://129.213.127.79:14000/iam/governance/selfservice/api/v1/requests/4"
+        }
+      ],
+      "id": "4",
+      "reqStatus": "Request Completed",
+      "requester": {
+        "name": "requesterId",
+        "value": "1",
+        "link": {
+          "rel": "self",
+          "href": "http://129.213.127.79:14000/iam/governance/selfservice/api/v1/users/1"
+        }
+      },
+      "reqCreatedOn": "2019-02-25T10:21:23Z",
+      "reqExpireOn": "2019-02-26T15:29:37Z",
+      "reqType": "Modify Role",
+      "reqBeneficiaryList": [
+        {
+          "links": [
+            {
+              "rel": "self",
+              "href": "http://129.213.127.79:14000/iam/governance/selfservice/api/v1/users/1"
+            }
+          ],
+          "id": "1"
+        }
+      ]
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "http://129.213.127.79:14000/iam/governance/selfservice/api/v1/requests/10"
+        }
+      ],
+      "id": "10",
+      "reqStatus": "Request Completed",
+      "requester": {
+        "name": "requesterId",
+        "value": "14",
+        "link": {
+          "rel": "self",
+          "href": "http://129.213.127.79:14000/iam/governance/selfservice/api/v1/users/14"
+        }
+      },
+      "reqCreatedOn": "2019-02-25T17:50:21Z",
+      "reqExpireOn": "2019-02-26T15:29:51Z",
+      "reqType": "Provision Entitlement",
+      "reqBeneficiaryList": [
+        {
+          "links": [
+            {
+              "rel": "self",
+              "href": "http://129.213.127.79:14000/iam/governance/selfservice/api/v1/users/14"
+            }
+          ],
+          "id": "14"
+        }
+      ]
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "http://129.213.127.79:14000/iam/governance/selfservice/api/v1/requests/13"
+        }
+      ],
+      "id": "13",
+      "reqStatus": "Request Failed",
+      "requester": {
+        "name": "requesterId",
+        "value": "14",
+        "link": {
+          "rel": "self",
+          "href": "http://129.213.127.79:14000/iam/governance/selfservice/api/v1/users/14"
+        }
+      },
+      "reqCreatedOn": "2019-02-25T18:16:55Z",
+      "reqExpireOn": "2019-02-26T15:29:54Z",
+      "reqType": "Provision Entitlement",
+      "reqBeneficiaryList": [
+        {
+          "links": [
+            {
+              "rel": "self",
+              "href": "http://129.213.127.79:14000/iam/governance/selfservice/api/v1/users/14"
+            }
+          ],
+          "id": "14"
+        }
+      ]
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "http://129.213.127.79:14000/iam/governance/selfservice/api/v1/requests/17"
+        }
+      ],
+      "id": "17",
+      "reqStatus": "Request Failed",
+      "requester": {
+        "name": "requesterId",
+        "value": "14",
+        "link": {
+          "rel": "self",
+          "href": "http://129.213.127.79:14000/iam/governance/selfservice/api/v1/users/14"
+        }
+      },
+      "reqCreatedOn": "2019-02-25T19:07:02Z",
+      "reqExpireOn": "2019-02-26T15:30:02Z",
+      "reqType": "Provision Entitlement",
+      "reqBeneficiaryList": [
+        {
+          "links": [
+            {
+              "rel": "self",
+              "href": "http://129.213.127.79:14000/iam/governance/selfservice/api/v1/users/14"
+            }
+          ],
+          "id": "14"
+        }
+      ]
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "http://129.213.127.79:14000/iam/governance/selfservice/api/v1/requests/1011"
+        }
+      ],
+      "id": "1011",
+      "reqStatus": "Request Completed",
+      "requester": {
+        "name": "requesterId",
+        "value": "1",
+        "link": {
+          "rel": "self",
+          "href": "http://129.213.127.79:14000/iam/governance/selfservice/api/v1/users/1"
+        }
+      },
+      "reqCreatedOn": "2019-02-26T17:47:44Z",
+      "reqExpireOn": "2019-02-26T17:47:44Z",
+      "reqType": "Assign Roles",
+      "reqBeneficiaryList": [
+        {
+          "links": [
+            {
+              "rel": "self",
+              "href": "http://129.213.127.79:14000/iam/governance/selfservice/api/v1/users/15"
+            }
+          ],
+          "id": "15"
+        }
+      ]
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "http://129.213.127.79:14000/iam/governance/selfservice/api/v1/requests/1016"
+        }
+      ],
+      "id": "1016",
+      "reqStatus": "Request Completed",
+      "requester": {
+        "name": "requesterId",
+        "value": "1",
+        "link": {
+          "rel": "self",
+          "href": "http://129.213.127.79:14000/iam/governance/selfservice/api/v1/users/1"
+        }
+      },
+      "reqCreatedOn": "2019-02-26T19:01:29Z",
+      "reqExpireOn": "2019-02-26T19:01:29Z",
+      "reqType": "Assign Roles",
+      "reqBeneficiaryList": [
+        {
+          "links": [
+            {
+              "rel": "self",
+              "href": "http://129.213.127.79:14000/iam/governance/selfservice/api/v1/users/22"
+            }
+          ],
+          "id": "22"
+        }
+      ]
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "http://129.213.127.79:14000/iam/governance/selfservice/api/v1/requests/1019"
+        }
+      ],
+      "id": "1019",
+      "reqStatus": "Request Awaiting Dependent Request Completion",
+      "requester": {
+        "name": "requesterId",
+        "value": "1",
+        "link": {
+          "rel": "self",
+          "href": "http://129.213.127.79:14000/iam/governance/selfservice/api/v1/users/1"
+        }
+      },
+      "reqCreatedOn": "2019-02-26T19:12:29Z",
+      "reqType": "Provision Entitlement",
+      "reqBeneficiaryList": [
+        {
+          "links": [
+            {
+              "rel": "self",
+              "href": "http://129.213.127.79:14000/iam/governance/selfservice/api/v1/users/13"
+            }
+          ],
+          "id": "13"
+        }
+      ]
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "http://129.213.127.79:14000/iam/governance/selfservice/api/v1/requests/1028"
+        }
+      ],
+      "id": "1028",
+      "reqStatus": "Request Completed",
+      "requester": {
+        "name": "requesterId",
+        "value": "18",
+        "link": {
+          "rel": "self",
+          "href": "http://129.213.127.79:14000/iam/governance/selfservice/api/v1/users/18"
+        }
+      },
+      "reqCreatedOn": "2019-02-27T19:40:57Z",
+      "reqExpireOn": "2019-02-27T19:41:00Z",
+      "reqJustification": "  [ Certification : User_Certificate [ Anil Gupta ]  ] ",
+      "reqType": "Revoke Entitlement",
+      "reqBeneficiaryList": [
+        {
+          "links": [
+            {
+              "rel": "self",
+              "href": "http://129.213.127.79:14000/iam/governance/selfservice/api/v1/users/15"
+            }
+          ],
+          "id": "15"
+        }
+      ]
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "http://129.213.127.79:14000/iam/governance/selfservice/api/v1/requests/7003"
+        }
+      ],
+      "id": "7003",
+      "reqStatus": "Request Approved Fulfillment Failed",
+      "requester": {
+        "name": "requesterId",
+        "value": "1",
+        "link": {
+          "rel": "self",
+          "href": "http://129.213.127.79:14000/iam/governance/selfservice/api/v1/users/1"
+        }
+      },
+      "reqCreatedOn": "2019-03-15T23:23:10Z",
+      "reqJustification": "Vali",
+      "reqType": "Provision Entitlement",
+      "reqBeneficiaryList": [
+        {
+          "links": [
+            {
+              "rel": "self",
+              "href": "http://129.213.127.79:14000/iam/governance/selfservice/api/v1/users/1"
+            }
+          ],
+          "id": "1"
+        }
+      ]
+    },
+    {
+      "links": [
+        {
+          "rel": "self",
+          "href": "http://129.213.127.79:14000/iam/governance/selfservice/api/v1/requests/8016"
+        }
+      ],
+      "id": "8016",
+      "reqStatus": "Request Completed",
+      "requester": {
+        "name": "requesterId",
+        "value": "38",
+        "link": {
+          "rel": "self",
+          "href": "http://129.213.127.79:14000/iam/governance/selfservice/api/v1/users/38"
+        }
+      },
+      "reqCreatedOn": "2019-03-20T15:48:25Z",
+      "reqExpireOn": "2019-03-20T19:35:10Z",
+      "reqType": "Provision Entitlement",
+      "reqBeneficiaryList": [
+        {
+          "links": [
+            {
+              "rel": "self",
+              "href": "http://129.213.127.79:14000/iam/governance/selfservice/api/v1/users/38"
+            }
+          ],
+          "id": "38"
+        }
+      ]
+    }
+  ]
+}

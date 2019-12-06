@@ -1,0 +1,81 @@
+{
+  "name": "Dietech-Login",
+  "version": "1.0.0",
+  "homepage": "https://ds.dietechsoftware.com",
+  "dependencies": {
+    "@coreui/coreui": "2.1.7",
+    "@coreui/coreui-plugin-chartjs-custom-tooltips": "1.2.0",
+    "@coreui/icons": "0.3.0",
+    "@coreui/react": "2.1.5",
+    "antd": "3.19.8",
+    "auth0-js": "9.10.2",
+    "axios": "0.18.0",
+    "bootstrap": "4.3.1",
+    "@devexpress/analytics-core": "~19.1.3",
+    "devexpress-reporting": "~19.1.3",
+    "classnames": "2.2.6",
+    "core-js": "2.6.5",
+    "devextreme": "^19.1.4",
+    "devextreme-react": "^19.1.6",
+    "flag-icon-css": "3.3.0",
+    "font-awesome": "^4.7.0",
+    "history": "^4.9.0",
+    "lodash.clonedeep": "^4.5.0",
+    "lodash.debounce": "^4.0.8",
+    "moment": "^2.24.0",
+    "node-sass": "4.11.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.4",
+    "react-app-polyfill": "^0.2.1",
+    "react-contextmenu": "^2.11.0",
+    "react-csv": "^1.1.1",
+    "react-csv-reader": "^1.2.2",
+    "react-dom": "^16.8.4",
+    "react-helmet": "^5.2.0",
+    "react-loadable": "^5.5.0",
+    "react-perfect-scrollbar": "^1.5.2",
+    "react-redux": "^6.0.1",
+    "react-router-config": "^4.4.0-beta.6",
+    "react-router-dom": "^4.3.1",
+    "react-spinners": "^0.5.3",
+    "reactstrap": "7.1.0",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
+    "simple-line-icons": "^2.4.1"
+  },
+  "devDependencies": {
+    "cross-env": "5.2.0",
+    "enzyme": "3.9.0",
+    "enzyme-adapter-react-16": "1.10.0",
+    "react-scripts": "2.1.5",
+    "react-test-renderer": "16.8.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "build-1": "cross-env PUBLIC_URL=/1 react-scripts build",
+    "build-2": "cross-env PUBLIC_URL=/2 react-scripts build",
+    "test": "react-scripts test",
+    "test:cov": "react-scripts test --coverage",
+    "test:debug": "react-scripts --inspect-brk test --runInBand",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "https://dsapi.dietechsoftware.com/",
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 9",
+    "not op_mini all"
+  ],
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx}",
+      "!**/*index.js",
+      "!src/serviceWorker.js",
+      "!src/polyfill.js"
+    ]
+  }
+}

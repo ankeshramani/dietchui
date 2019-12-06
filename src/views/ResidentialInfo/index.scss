@@ -1,0 +1,19 @@
+.residential-info {
+  tr.ant-table-expanded-row {
+    background: #fff;
+
+    td:first-child {
+      display: none;
+    }
+
+    td {
+      padding: 5px 8px !important;
+      text-align: left;
+      padding-left: 30px !important;
+    }
+  }
+  // to hide expand icon column
+  .ant-table-row-expand-icon-cell .ant-table-row-expand-icon, .ant-table-expand-icon-th, .ant-table-row-expand-icon-cell {
+    display: none;
+  }
+}
